@@ -33,3 +33,30 @@
   height: 54px;
   object-fit: contain;
 }
+
+.links {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.badgeLink {
+  display: inline-flex;
+  align-items: center;
+}
+
+.badge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+.githubLink {
+  color: rgba(44, 53, 57, 0.85);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.githubLink:hover {
+  color: rgba(44, 53, 57, 1);
+}

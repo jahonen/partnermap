@@ -87,9 +87,23 @@
 
 .footerRow {
   margin-top: 6px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .link {
   font-family: var(--font-secondary);
   font-weight: 500;
+}
+
+.sep {
+  color: rgba(44, 53, 57, 0.45);
+}
+
+.hint {
+  margin-top: 4px;
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.75);
 }

@@ -101,7 +101,13 @@ export default function LoginPage() {
           <Link className={styles.link} to="/reset-password">
             Forgot password?
           </Link>
+          <span className={styles.sep}>·</span>
+          <Link className={styles.link} to="/register">
+            Create account
+          </Link>
         </div>
+
+        <div className={styles.hint}>Have an invite? Use the invite link or enter your invite code on the registration page.</div>
       </form>
     </div>
   )

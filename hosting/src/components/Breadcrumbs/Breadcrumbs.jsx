@@ -40,19 +40,33 @@ export default function Breadcrumbs() {
     }
   }
 
+  const visibleCrumbs = crumbs.filter((c, idx) => {
+    const prev = idx > 0 ? crumbs[idx - 1] : null
+    if (!prev) {
+      return true
+    }
+    if (prev.to === c.to) {
+      return false
+    }
+    if (prev.label === c.label) {
+      return false
+    }
+    return true
+  })
+
   return (
     <div className={styles.bar}>
       <div className={styles.inner}>
-        {crumbs.map((c, idx) => (
+        {visibleCrumbs.map((c, idx) => (
           <span key={c.to} className={styles.crumb}>
-            {idx === crumbs.length - 1 ? (
+            {idx === visibleCrumbs.length - 1 ? (
               <span className={styles.current}>{c.label}</span>
             ) : (
               <Link className={styles.link} to={c.to}>
                 {c.label}
               </Link>
             )}
-            {idx < crumbs.length - 1 ? <span className={styles.sep}>/</span> : null}
+            {idx < visibleCrumbs.length - 1 ? <span className={styles.sep}>/</span> : null}
           </span>
         ))}
       </div>
