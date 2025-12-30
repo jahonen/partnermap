@@ -1,0 +1,35 @@
+.footer {
+  border-top: 1px solid rgba(44, 53, 57, 0.12);
+  background: #ffffff;
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 14px 24px;
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.text {
+  flex: 1;
+  min-width: 240px;
+}
+
+.nxtStrideLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nxtStrideLogo {
+  width: 150px;
+  height: 54px;
+  object-fit: contain;
+}

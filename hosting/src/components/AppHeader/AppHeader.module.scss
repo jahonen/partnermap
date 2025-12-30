@@ -1,0 +1,78 @@
+.header {
+  background: #ffffff;
+  border-bottom: 1px solid rgba(44, 53, 57, 0.12);
+}
+
+.inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logoMark {
+  width: 34px;
+  height: 34px;
+  border-radius: 10px;
+  object-fit: contain;
+  background: transparent;
+}
+
+.brandText {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+}
+
+.subtitle {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.link {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+.langLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.langText {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.8);
+}
+
+.langSelect {
+  height: 34px;
+  border-radius: 10px;
+  border: 1px solid rgba(44, 53, 57, 0.18);
+  background: #ffffff;
+  padding: 0 10px;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  color: var(--color-graphite);
+}

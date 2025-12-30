@@ -1,0 +1,238 @@
+{
+  "language": "fr",
+  "frontPage": {
+    "h1": "Alignez-vous entre cofondateurs avant d’écrire des contrats.",
+    "lead": "Une façon simple et structurée pour les fondateurs de startup de parler d’actionnariat, de rôles, d’argent, de décisions et de sortie. L’objectif est un accord de haut niveau avant la négociation formelle et les documents juridiques.",
+    "primaryCta": "Continuer",
+    "secondaryPrefix": "Vous avez un code d’invitation ? Allez sur",
+    "secondaryLinkText": "S’inscrire",
+    "secondarySuffix": ".",
+    "disclaimer": "Cet outil aide à structurer la discussion. Ce n’est pas un conseil juridique et ce n’est pas un outil de rédaction de contrats."
+  },
+  "ui": {
+    "languageLabel": "Langue",
+    "login": "Connexion",
+    "loading": "Chargement…",
+    "dashboardTitle": "Tableau de bord",
+    "companyLabel": "Entreprise",
+    "inviteCodeLabel": "Code d’invitation",
+    "yourRoleLabel": "Votre rôle",
+    "startAssessment": "Commencer / continuer l’évaluation",
+    "reviewSummary": "Voir le résumé",
+    "finalize": "Finaliser",
+    "signOut": "Se déconnecter",
+    "assessmentTitle": "Évaluation",
+    "assessmentNote": "Choisissez un domaine et regardez les options et compromis.",
+    "domainsLabel": "Domaines",
+    "loadingSavedSelections": "Chargement des choix…",
+    "failedToLoadSavedSelections": "Impossible de charger les choix",
+    "failedToSave": "Échec de l’enregistrement",
+    "saving": "Enregistrement…",
+    "reviewTitle": "Revue",
+    "reviewNote": "Consultez vos choix, comparez avec les autres et ajoutez des commentaires.",
+    "failedToLoadResponses": "Impossible de charger les réponses",
+    "loadingCompanyView": "Chargement de la vue entreprise…",
+    "failedToLoadCompanyResponses": "Impossible de charger les réponses de l’entreprise",
+    "failedToLoadParticipants": "Impossible de charger les participants",
+    "optionLabel": "Option",
+    "notSelected": "Non sélectionné",
+    "conflictsTitle": "Différences",
+    "noSelectionsYet": "Aucun choix pour le moment",
+    "commentsTitle": "Commentaires",
+    "loadingComments": "Chargement des commentaires…",
+    "failedToLoadComments": "Impossible de charger les commentaires",
+    "failedToAddComment": "Impossible d’ajouter le commentaire",
+    "commentPlaceholder": "Ajouter un commentaire (max 500 caractères)",
+    "posting": "Publication…",
+    "postComment": "Publier",
+    "noCommentsYet": "Aucun commentaire pour le moment.",
+    "finalTitle": "Final",
+    "finalNote": "Exportez vos choix dans un fichier blueprint simple.",
+    "approvalsTitle": "Approbations",
+    "approvalsNote": "Chaque participant peut approuver quand la version actuelle lui convient.",
+    "approve": "Approuver",
+    "unapprove": "Retirer l’approbation",
+    "approved": "Approuvé",
+    "notApproved": "Non approuvé",
+    "downloadBlueprint": "Télécharger le blueprint (JSON)",
+    "failedToLoadCompany": "Impossible de charger les données de l’entreprise"
+  },
+  "domains": {
+    "equity_ownership": {
+      "order": 1,
+      "angleDeg": 0,
+      "name": "Répartition du capital",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Partage égal",
+          "description": "Chaque associé possède le même pourcentage. Peu importe qui a investi plus d’argent ou travaillé plus d’heures. C’est simple et cela peut sembler juste. Le risque est que si une personne fait ensuite beaucoup plus de travail ou prend plus de risque financier, elle peut se sentir lésée."
+        },
+        {
+          "option": 2,
+          "name": "Selon l’argent investi",
+          "description": "La part de chacun dépend du montant investi. Celui qui met plus d’argent reçoit une plus grande part. Cela protège la personne qui prend plus de risque financier. Inconvénient : cela peut sous-estimer l’associé qui apporte surtout du temps, des compétences et de l’expérience."
+        },
+        {
+          "option": 3,
+          "name": "Selon le rôle",
+          "description": "La part de chacun dépend de l’importance de son rôle et de ses compétences pour l’entreprise. Les tâches les plus critiques ou une expertise rare peuvent donner une plus grande part. Cela récompense la valeur du travail. La difficulté est de s’accorder sur l’importance des rôles, et les rôles peuvent changer avec le temps."
+        }
+      ]
+    },
+    "capital_contribution": {
+      "order": 2,
+      "angleDeg": 45,
+      "name": "Apport en capital",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Apports futurs égaux",
+          "description": "Quand l’entreprise a besoin de plus d’argent, tout le monde met la même somme. Exemple : si 30 000 € sont nécessaires et vous êtes trois, chacun met 10 000 €. Cela garde un équilibre de pouvoir. Risque : tout le monde n’a pas toujours la même capacité à payer."
+        },
+        {
+          "option": 2,
+          "name": "L’apport initial compte toujours",
+          "description": "L’argent investi au départ compte comme un crédit permanent. Si vous mettez 50 000 € au lancement, cela reste pris en compte pour comparer parts ou profits. Cela protège ceux qui ont pris le risque au début. Inconvénient : cela ne reflète pas toujours qui finance l’entreprise plus tard."
+        },
+        {
+          "option": 3,
+          "name": "Conversion du travail en capital",
+          "description": "Le temps de travail peut compter comme un investissement, pas seulement l’argent. Les heures sont converties en euros et ajoutées aux apports. Cela aide ceux qui ont des compétences mais peu d’argent. Le plus dur est de fixer la valeur d’une heure et de suivre les heures de façon fiable."
+        }
+      ]
+    },
+    "time_effort": {
+      "order": 3,
+      "angleDeg": 90,
+      "name": "Temps / effort",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Engagement à temps plein égal",
+          "description": "Chaque associé s’engage à travailler le même nombre d’heures par semaine, souvent 40+ heures. Cela réduit le sentiment d’injustice. Inconvénient : les situations de vie changent, et le même nombre d’heures ne donne pas toujours la même valeur."
+        },
+        {
+          "option": 2,
+          "name": "Rôles différents avec pourcentages",
+          "description": "Vous acceptez que certains rôles demandent plus de temps que d’autres. Une personne peut être à 50% et une autre à 100%. Les attentes sont écrites clairement. Cela apporte de la flexibilité, mais peut créer des conflits si vous n’êtes pas d’accord sur le respect des engagements."
+        },
+        {
+          "option": 3,
+          "name": "Basé sur les résultats",
+          "description": "On juge les associés sur les résultats, pas sur les heures. Si vos responsabilités sont bien faites, peu importe quand vous travaillez. Cela donne de la liberté et du focus. Il faut des objectifs clairs et cela marche mal si chacun a une définition différente de “bien fait”."
+        }
+      ]
+    },
+    "compensation_structure": {
+      "order": 4,
+      "angleDeg": 135,
+      "name": "Rémunération",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Pas de salaire, seulement les profits",
+          "description": "Les associés ne prennent pas de salaire régulier. L’argent est distribué uniquement quand l’entreprise fait un profit, selon une règle décidée. Cela garde plus de cash pour grandir. Inconvénient : il faut des économies ou un autre revenu, ce qui peut favoriser les personnes plus à l’aise."
+        },
+        {
+          "option": 2,
+          "name": "Salaire du marché + part de profits",
+          "description": "Chaque associé est payé comme s’il faisait ce travail ailleurs, puis les profits restants sont partagés séparément. Cela aide à payer les dépenses du quotidien. Inconvénient : les jeunes entreprises ne peuvent souvent pas payer ces salaires et cela réduit l’argent disponible pour la croissance."
+        },
+        {
+          "option": 3,
+          "name": "Salaire réduit + part de profits",
+          "description": "Les associés prennent un salaire plus faible (par exemple 50–70% du marché) et complètent plus tard avec les profits. Cela équilibre besoins personnels et trésorerie de l’entreprise. Cela demande un effort à court terme et suppose que des profits arriveront plus tard."
+        }
+      ]
+    },
+    "profit_distribution": {
+      "order": 5,
+      "angleDeg": 180,
+      "name": "Partage des profits",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proportionnel aux parts",
+          "description": "Les profits sont partagés selon le pourcentage de capital. Si vous avez 40%, vous recevez 40% des profits. C’est simple et lié au risque d’actionnaire. Inconvénient : cela ne reflète pas toujours l’effort actuel si quelqu’un travaille beaucoup plus."
+        },
+        {
+          "option": 2,
+          "name": "Égal pour tous",
+          "description": "Les profits sont partagés de façon égale, même si les parts sont différentes. Cela peut récompenser l’effort du moment et renforcer l’équipe. Inconvénient : cela sépare profit et capital, ce qui peut sembler injuste pour celui qui a investi plus ou pris plus de risque au départ."
+        },
+        {
+          "option": 3,
+          "name": "Salaire d’abord, puis reste proportionnel",
+          "description": "On paie d’abord les salaires convenus. Ensuite, le reste est partagé selon les parts. Cela assure un revenu de base avant le partage des profits. Inconvénient : plus de complexité, car il faut définir clairement salaire et profit et gérer deux règles."
+        }
+      ]
+    },
+    "decision_authority": {
+      "order": 6,
+      "angleDeg": 225,
+      "name": "Pouvoir de décision",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Unanimité pour les grandes décisions",
+          "description": "Les décisions importantes demandent l’accord de tous. Exemples : grosses dépenses, recrutements, changements de stratégie, investissements. Cela protège les minoritaires et crée de l’adhésion. Inconvénient : en cas de désaccord, tout peut devenir lent et bloqué."
+        },
+        {
+          "option": 2,
+          "name": "Décision par domaine",
+          "description": "Chaque associé décide en dernier dans son domaine de responsabilité. Cela accélère et respecte les compétences. Risque : les frontières entre domaines ne sont pas toujours claires et une décision peut impacter les autres."
+        },
+        {
+          "option": 3,
+          "name": "Un responsable tranche",
+          "description": "Une personne a le dernier mot si vous n’arrivez pas à être d’accord. Les autres donnent leur avis, mais cette personne décide. Cela évite les blocages et clarifie la responsabilité. Inconvénient : cela peut créer de la frustration si la personne n’écoute pas ou décide mal souvent."
+        }
+      ]
+    },
+    "voting_control": {
+      "order": 7,
+      "angleDeg": 270,
+      "name": "Droit de vote",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proportionnel aux parts",
+          "description": "Le poids du vote suit le pourcentage de capital. Si vous avez 45%, votre vote vaut 45%. Cela relie contrôle et risque financier. Inconvénient : les petits actionnaires peuvent se sentir sans pouvoir."
+        },
+        {
+          "option": 2,
+          "name": "Un vote chacun",
+          "description": "Chaque associé a un vote de même poids, peu importe ses parts. Cela équilibre le pouvoir et évite qu’une personne domine. Inconvénient : cela peut sembler injuste si quelqu’un possède beaucoup plus de capital."
+        },
+        {
+          "option": 3,
+          "name": "L’expert décide",
+          "description": "Sur un sujet, l’associé le plus compétent a le vote décisif. Cela peut accélérer et améliorer les décisions. Défi : définir clairement les domaines et s’assurer que l’expert écoute aussi les autres."
+        }
+      ]
+    },
+    "exit_mechanism": {
+      "order": 8,
+      "angleDeg": 315,
+      "name": "Sortie d’un associé",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Rachat à la valeur comptable",
+          "description": "Quand quelqu’un part, il vend ses parts selon la valeur comptable (actifs moins dettes). C’est basé sur des chiffres et facile à expliquer. Inconvénient : cela sous-estime souvent une entreprise en croissance car cela ne compte pas le potentiel futur ou la valeur de la marque."
+        },
+        {
+          "option": 2,
+          "name": "Formule avec multiple du chiffre d’affaires",
+          "description": "Le prix est calculé avec une formule simple : chiffre d’affaires annuel fois un multiple (par exemple 2× ou 3×). Cela peut refléter la dynamique. Inconvénient : le chiffre d’affaires ne veut pas dire profit et peut baisser vite."
+        },
+        {
+          "option": 3,
+          "name": "Clause shotgun",
+          "description": "Un associé fixe un prix pour toute l’entreprise. L’autre doit choisir : acheter ou vendre à ce prix. Cela pousse à proposer un prix juste. Cela fonctionne surtout à deux et devient plus compliqué à trois ou plus."
+        }
+      ]
+    }
+  }
+}

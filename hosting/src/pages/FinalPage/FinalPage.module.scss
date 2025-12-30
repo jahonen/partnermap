@@ -1,0 +1,177 @@
+.page {
+  padding: 24px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.note {
+  margin-top: 12px;
+  color: rgba(44, 53, 57, 0.85);
+}
+
+.error {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(232, 98, 52, 0.4);
+  background: rgba(232, 98, 52, 0.12);
+  color: var(--color-graphite);
+  font-size: 12px;
+}
+
+.primaryButton {
+  margin-top: 16px;
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background: var(--color-signal-orange);
+  color: #ffffff;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 14px;
+}
+
+.statusActions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.adminActions {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.approvalsCard {
+  margin-top: 16px;
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 14px;
+}
+
+.approvalsTitle {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+.approvalsNote {
+  margin-top: 8px;
+  color: rgba(44, 53, 57, 0.75);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.secondaryButton {
+  margin-top: 12px;
+  height: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(44, 53, 57, 0.18);
+  background: #ffffff;
+  color: var(--color-graphite);
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 14px;
+}
+
+.approvalsList {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.approvalRow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.approvalName {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+.approved {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  color: rgba(10, 135, 84, 0.95);
+}
+
+.notApproved {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  color: rgba(44, 53, 57, 0.55);
+}
+
+.rejected {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  color: rgba(196, 38, 38, 0.9);
+}
+
+.commentForm {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.textarea {
+  width: 100%;
+  border-radius: 12px;
+  border: 1px solid rgba(44, 53, 57, 0.18);
+  padding: 10px 12px;
+  font-family: var(--font-secondary);
+  resize: vertical;
+}
+
+.commentList {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.commentItem {
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.commentMeta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+.commentText {
+  margin-top: 6px;
+  color: rgba(44, 53, 57, 0.82);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.deleteButton {
+  border: none;
+  background: transparent;
+  color: rgba(196, 38, 38, 0.9);
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  cursor: pointer;
+}

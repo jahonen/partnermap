@@ -1,0 +1,130 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function participantDoc(companyId) {
+      return get(/databases/$(database)/documents/companies/$(companyId)/participants/$(request.auth.uid));
+    }
+
+    function participantExists(companyId) {
+      return isSignedIn() && exists(/databases/$(database)/documents/companies/$(companyId)/participants/$(request.auth.uid));
+    }
+
+    function isParticipant(companyId) {
+      return participantExists(companyId);
+    }
+
+    function isAdmin(companyId) {
+      return isParticipant(companyId) && participantDoc(companyId).data.role == "admin";
+    }
+
+    function workflowDoc(companyId) {
+      return get(/databases/$(database)/documents/companies/$(companyId)/workflow/state);
+    }
+
+    function workflowStage(companyId) {
+      return workflowDoc(companyId).data.stage;
+    }
+
+    function isAssessmentStage(companyId) {
+      return !exists(/databases/$(database)/documents/companies/$(companyId)/workflow/state) ||
+        workflowStage(companyId) == "assessment";
+    }
+
+    function isReviewStage(companyId) {
+      return exists(/databases/$(database)/documents/companies/$(companyId)/workflow/state) &&
+        workflowStage(companyId) == "review";
+    }
+
+    function isFinalizeStage(companyId) {
+      return exists(/databases/$(database)/documents/companies/$(companyId)/workflow/state) &&
+        workflowStage(companyId) == "finalize";
+    }
+
+    function isValidDomainSelectionArray() {
+      return request.resource.data.domains is map;
+    }
+
+    function isValidCommentCreate() {
+      return request.resource.data.keys().hasOnly(["domain", "userId", "userName", "text", "createdAt"]) &&
+        request.resource.data.domain is string &&
+        request.resource.data.userId is string &&
+        request.resource.data.userName is string &&
+        request.resource.data.text is string &&
+        request.resource.data.text.size() <= 500;
+    }
+
+    match /inviteCodes/{inviteCode} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /users/{userId} {
+      allow read, write: if isSignedIn() && request.auth.uid == userId;
+    }
+
+    match /companies/{companyId} {
+      allow read: if isParticipant(companyId) || (isSignedIn() && resource.data.createdBy == request.auth.uid);
+      allow create: if isSignedIn();
+      allow update, delete: if isAdmin(companyId);
+
+      match /participants/{userId} {
+        allow read: if (isSignedIn() && request.auth.uid == userId) || isParticipant(companyId);
+        allow create, update, delete: if isAdmin(companyId);
+      }
+
+      match /invites/{inviteId} {
+        allow read: if isParticipant(companyId);
+        allow write: if false;
+      }
+
+      match /responses/{userId} {
+        allow read: if isParticipant(companyId);
+        allow create, update: if isParticipant(companyId) && request.auth.uid == userId && isValidDomainSelectionArray() && isAssessmentStage(companyId);
+        allow delete: if isAdmin(companyId);
+      }
+
+      match /workflow/{docId} {
+        allow read: if isParticipant(companyId);
+        allow create, update, delete: if isAdmin(companyId);
+      }
+
+      match /blueprint/{docId} {
+        allow read: if isParticipant(companyId);
+        allow create, update, delete: if isAdmin(companyId);
+      }
+
+      match /acceptance/{userId} {
+        allow read: if isParticipant(companyId);
+        allow create, update: if isParticipant(companyId) && request.auth.uid == userId && isFinalizeStage(companyId);
+        allow delete: if isAdmin(companyId);
+      }
+
+      match /final_config/{configId} {
+        allow read: if isParticipant(companyId);
+        allow create, update, delete: if isAdmin(companyId);
+      }
+
+      match /approvals/{userId} {
+        allow read: if isParticipant(companyId);
+        allow create, update: if isSignedIn() && request.auth.uid == userId;
+        allow delete: if isAdmin(companyId);
+      }
+
+      match /comments/{commentId} {
+        allow read: if isParticipant(companyId);
+        allow create: if isParticipant(companyId) && isValidCommentCreate() && request.resource.data.userId == request.auth.uid && (isReviewStage(companyId) || isFinalizeStage(companyId));
+        allow delete: if isParticipant(companyId) && (isReviewStage(companyId) || isFinalizeStage(companyId)) && request.auth.uid == resource.data.userId;
+        allow update: if false;
+      }
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

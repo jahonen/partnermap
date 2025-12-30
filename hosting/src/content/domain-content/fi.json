@@ -1,0 +1,307 @@
+{
+  "language": "fi",
+  "frontPage": {
+    "h1": "Sovittakaa suunta ennen sopimuspapereita.",
+    "lead": "Yksinkertainen ja selkeä tapa startup-perustajille keskustella omistuksesta, rooleista, rahasta, päätöksistä ja irtautumisesta. Tavoite on yhteinen ymmärrys ennen virallisia neuvotteluja ja juridisia dokumentteja.",
+    "primaryCta": "Jatka",
+    "secondaryPrefix": "Onko sinulla kutsukoodi? Mene",
+    "secondaryLinkText": "Rekisteröitymään",
+    "secondarySuffix": ".",
+    "disclaimer": "Työkalu tukee keskustelua. Se ei ole lakineuvontaa eikä sopimusten laatimistyökalu."
+  },
+  "ui": {
+    "languageLabel": "Kieli",
+    "login": "Kirjaudu",
+    "loading": "Ladataan…",
+    "dashboardTitle": "Etusivu",
+    "stageLabel": "Vaihe",
+    "stage_assessment": "Kartoitus",
+    "stage_review": "Tarkistus",
+    "stage_finalize": "Viimeistely",
+    "stage_closed": "Suljettu",
+    "stageHelpAssessment": "Täytä kartoitus ja varmista, että kutsut on hyväksytty tai peruttu ennen tarkistusta.",
+    "stageHelpReview": "Tarkista äänet ja valitse lopullinen vaihtoehto jokaiselle osa-alueelle.",
+    "stageHelpFinalize": "Osallistujat hyväksyvät tai hylkäävät blueprintin. Admin voi sulkea, kun kaikki ovat hyväksyneet.",
+    "stageHelpClosed": "Kartoitus on suljettu ja vain luku -tilassa.",
+    "readinessTitle": "Valmius",
+    "readinessInvites": "Kutsut käsitelty",
+    "readinessAssessments": "Kaikki kartoitukset valmiit",
+    "readinessBlueprint": "Blueprint valittu (8/8)",
+    "readinessAcceptance": "Kaikki hyväksyneet",
+    "adminControlsTitle": "Admin: Vaiheen hallinta",
+    "blockedTitle": "Estetty, koska:",
+    "dangerZoneTitle": "Vaaravyöhyke",
+    "adminStartOver": "Poista kartoituksen tiedot (aloita alusta)",
+    "adminBlockedInvites": "Avoimet kutsut pitää hyväksyä tai perua",
+    "adminBlockedAssessments": "Kaikkien osallistujien pitää täyttää kartoitus",
+    "adminBlockedBlueprint": "Valitse 1 vaihtoehto per osa-alue jatkaaksesi",
+    "adminBlockedAcceptance": "Odotetaan, että kaikki hyväksyvät blueprintin",
+    "adminStartReview": "Aloita tarkistus (lukitse kartoitus)",
+    "adminStartReviewHelp": "Lukitsee kartoituksen ja siirtyy blueprintin valintaan.",
+    "adminStartFinalize": "Julkaise blueprint (aloita hyväksynnät)",
+    "adminStartFinalizeHelp": "Julkaisee lopullisen blueprintin ja pyytää hyväksynnän tai hylkäyksen.",
+    "adminCloseMapping": "Sulje kartoitus (lähetä vahvistussähköposti)",
+    "adminCloseMappingHelp": "Lukitsee kartoituksen ja lähettää vahvistusviestin kaikille.",
+    "adminResendClosedEmail": "Lähetä vahvistussähköposti uudelleen",
+    "adminResendClosedEmailHelp": "Lähettää suljetun kartoituksen vahvistusviestin uudelleen kaikille.",
+    "yourNextStepTitle": "Seuraava askeleesi",
+    "participantDoneWaiting": "Valmis — odotetaan muita",
+    "participantDoneWaitingHelp": "Admin aloittaa tarkistuksen, kun kaikki ovat valmiita.",
+    "participantContinueAssessment": "Jatka kartoitusta",
+    "participantContinueAssessmentHelp": "Täytä kaikki 8 osa-aluetta.",
+    "participantReviewInProgress": "Tarkistus käynnissä",
+    "participantReviewInProgressHelp": "Admin valitsee lopullista blueprintiä.",
+    "participantFinalizeCta": "Tarkista ja hyväksy/hylkää blueprint",
+    "participantFinalizeHelp": "Voit muuttaa päätöstäsi, kunnes kartoitus suljetaan.",
+    "participantViewClosed": "Katso lopullinen blueprint",
+    "participantViewClosedHelp": "Kartoitus on suljettu.",
+    "navAssessment": "Kartoitus",
+    "navReview": "Tarkistus",
+    "navFinalize": "Viimeistely",
+    "inviteTeammatesTitle": "Kutsu tiimikaverit",
+    "participantsTitle": "Osallistujat",
+    "participantsEmailHeader": "Sähköposti",
+    "participantsStatusHeader": "Tila",
+    "copyInviteLink": "Kopioi kutsulinkki",
+    "emailLabel": "Sähköposti",
+    "sendInvite": "Lähetä kutsu",
+    "cancelInvite": "Peru",
+    "sending": "Lähetetään…",
+    "reconcileInvites": "Korjaa kutsujen tila",
+    "inviteMismatchNote": "Joidenkin kutsujen tila on yhä avoin, vaikka osallistuja on jo liittynyt. Voit korjata tilan.",
+    "invitesLocked": "Kutsut lukitaan, kun tarkistus alkaa.",
+    "companyLabel": "Yritys",
+    "inviteCodeLabel": "Kutsukoodi",
+    "yourRoleLabel": "Roolisi",
+    "startAssessment": "Aloita / jatka kartoitusta",
+    "reviewSummary": "Tarkista yhteenveto",
+    "finalize": "Viimeistele",
+    "signOut": "Kirjaudu ulos",
+    "assessmentTitle": "Kartoitus",
+    "assessmentNote": "Valitse osa-alue ja tutustu vaihtoehtoihin ja niiden eroihin.",
+    "completeAssessment": "Merkitse kartoitus valmiiksi",
+    "domainsLabel": "Osa-alueet",
+    "loadingSavedSelections": "Ladataan tallennettuja valintoja…",
+    "failedToLoadSavedSelections": "Tallennettujen valintojen lataus epäonnistui",
+    "failedToSave": "Tallennus epäonnistui",
+    "saving": "Tallennetaan…",
+    "reviewTitle": "Tarkistus",
+    "reviewDomainProgressLabel": "Osa-alue",
+    "reviewAdminOnlyNote": "Vain admin voi tehdä valinnat. Voit katsoa äänet ja lisätä kommentteja.",
+    "reviewOptionsTitle": "Vaihtoehdot",
+    "closeReview": "Sulje tarkistus",
+    "previousDomain": "Edellinen",
+    "nextDomain": "Seuraava",
+    "finalizeReview": "Viimeistele",
+    "finalizeBlocked": "Valitse yksi vaihtoehto jokaiselle 8 osa-alueelle",
+    "adminOnly": "Vain admin",
+    "votesLabel": "Äänet",
+    "deleteComment": "Poista",
+    "failedToDeleteComment": "Kommentin poistaminen epäonnistui",
+    "reviewNote": "Tarkista omat valintasi, vertaa muihin ja lisää kommentteja.",
+    "failedToLoadResponses": "Vastausten lataus epäonnistui",
+    "loadingCompanyView": "Ladataan yritysnäkymää…",
+    "failedToLoadCompanyResponses": "Yrityksen vastausten lataus epäonnistui",
+    "failedToLoadParticipants": "Osallistujien lataus epäonnistui",
+    "optionLabel": "Vaihtoehto",
+    "loadingComments": "Ladataan kommentteja…",
+    "failedToLoadComments": "Kommenttien lataus epäonnistui",
+    "failedToAddComment": "Kommentin lisääminen epäonnistui",
+    "notSelected": "Ei valittu",
+    "conflictsTitle": "Eroavaisuudet",
+    "noSelectionsYet": "Ei valintoja vielä",
+    "commentsTitle": "Kommentit",
+    "commentPlaceholder": "Lisää kommentti (max 500 merkkiä)",
+    "posting": "Lähetetään…",
+    "postComment": "Lähetä kommentti",
+    "noCommentsYet": "Ei kommentteja vielä.",
+    "finalTitle": "Viimeistely",
+    "finalNote": "Lataa nykyiset valintasi yksinkertaisena blueprint-tiedostona.",
+    "approvalsTitle": "Hyväksynnät",
+    "approvalsNote": "Jokainen osallistuja voi hyväksyä, kun nykyinen versio tuntuu hyvältä.",
+    "approve": "Hyväksy",
+    "unapprove": "Peru hyväksyntä",
+    "approved": "Hyväksytty",
+    "notApproved": "Ei hyväksytty",
+    "downloadBlueprint": "Lataa blueprint (JSON)",
+    "failedToLoadCompany": "Yritystietojen lataus epäonnistui"
+  },
+  "domains": {
+    "equity_ownership": {
+      "order": 1,
+      "angleDeg": 0,
+      "name": "Omistusosuudet",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Tasajako",
+          "description": "Jokainen osakas omistaa saman prosentin. Sillä ei ole väliä, kuka laittoi enemmän rahaa tai teki enemmän tunteja. Tämä on helppo ja voi tuntua reilulta, koska kaikkia kohdellaan yhtä tärkeinä. Riski on, että jos joku myöhemmin tekee paljon enemmän töitä tai kantaa isomman rahariskin, hän voi kokea jaon epäreiluksi."
+        },
+        {
+          "option": 2,
+          "name": "Painotus sijoitetun rahan mukaan",
+          "description": "Omistus määräytyy sen mukaan, kuinka paljon rahaa kukin sijoittaa. Jos joku laittaa enemmän rahaa, hän saa suuremman osuuden. Tämä suojaa sitä, joka ottaa suuremman rahariskin. Haittapuoli on, että se voi aliarvioida sen, joka tuo osaamista ja aikaa rahan sijaan."
+        },
+        {
+          "option": 3,
+          "name": "Painotus roolin mukaan",
+          "description": "Omistus määräytyy sen mukaan, kuinka tärkeä kunkin rooli ja taidot ovat yrityksen kannalta. Se, joka tekee kriittisintä työtä tai tuo harvinaista osaamista, saa suuremman osuuden. Tämä palkitsee työn merkitystä, ei vain rahaa tai tunteja. Haaste on sopia roolien tärkeydestä, ja roolit voivat muuttua ajan myötä."
+        }
+      ]
+    },
+    "capital_contribution": {
+      "order": 2,
+      "angleDeg": 45,
+      "name": "Rahoituspanos",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Yhtä suuret lisäsijoitukset",
+          "description": "Kun yritys tarvitsee lisää rahaa, kaikki sijoittavat saman summan. Esimerkiksi jos tarvitaan 30 000 € ja osakkaita on kolme, jokainen maksaa 10 000 €. Tämä pitää rahaan liittyvän vallan tasapainossa. Riski on, ettei kaikilla ole aina yhtä paljon rahaa käytettävissä."
+        },
+        {
+          "option": 2,
+          "name": "Alkusijoitus huomioidaan aina",
+          "description": "Alussa sijoitettu raha lasketaan pysyvästi mukaan. Jos laitoit alussa 50 000 €, se huomioidaan myöhemmin, kun verrataan omistusta tai voitonjakoa. Tämä suojaa alkupanostajaa. Haittapuoli on, että se ei aina vastaa sitä, kuka rahoittaa yritystä myöhemmin."
+        },
+        {
+          "option": 3,
+          "name": "Työpanos muutetaan sijoitukseksi",
+          "description": "Työaika voidaan laskea sijoitukseksi rahan sijaan. Työtunnit muutetaan euroiksi ja kirjataan panokseksi. Tämä auttaa mukaan niitä, joilla on taitoja mutta vähän rahaa. Vaikeinta on sopia tunnin arvosta ja seurata aikaa luotettavasti."
+        }
+      ]
+    },
+    "time_effort": {
+      "order": 3,
+      "angleDeg": 90,
+      "name": "Ajankäyttö ja työpanos",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Sama täysipäiväinen panos",
+          "description": "Kaikki sitoutuvat tekemään saman määrän työtunteja viikossa, usein 40+ tuntia. Tämä voi tuntua reilulta ja vähentää tunnetta siitä, että joku hyötyy toisten työstä. Haittapuoli on, että elämäntilanteet muuttuvat, eikä sama tuntimäärä aina tarkoita samaa vaikutusta."
+        },
+        {
+          "option": 2,
+          "name": "Eri roolit, selkeät prosentit",
+          "description": "Sovitaan, että eri roolit vaativat eri määrän aikaa. Yksi voi tehdä 50 % ja toinen 100 %. Odotukset kirjoitetaan selkeästi prosentteina. Tämä tuo joustoa, mutta voi syntyä riitaa, jos ollaan eri mieltä siitä, täyttyykö sitoumus."
+        },
+        {
+          "option": 3,
+          "name": "Tulokset ratkaisevat, ei tuntikirjanpitoa",
+          "description": "Arvioidaan tekemistä tulosten perusteella, ei tuntien mukaan. Jos omat vastuut hoituvat hyvin, ei ole väliä milloin tai kuinka kauan työskentelet. Tämä antaa vapautta, mutta vaatii selkeät tavoitteet. Se toimii huonosti, jos laatuvaatimukset ovat eri tasolla."
+        }
+      ]
+    },
+    "compensation_structure": {
+      "order": 4,
+      "angleDeg": 135,
+      "name": "Palkat ja korvaukset",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Ei palkkaa, vain voitonjako",
+          "description": "Osakkaat eivät nosta säännöllistä palkkaa. Rahaa jaetaan vasta, kun yritys tekee voittoa, sovitun jaon mukaan. Tämä pitää enemmän rahaa yrityksessä kasvua varten. Haittapuoli on, että osakkaat tarvitsevat säästöjä tai muuta tuloa, mikä voi suosia varakkaampia."
+        },
+        {
+          "option": 2,
+          "name": "Markkinapalkka + voitonjako",
+          "description": "Jokainen saa palkkaa sen mukaan, mitä sama työ maksaisi muualla. Tämän jälkeen voitot jaetaan erikseen. Tämä auttaa arjessa, mutta moni nuori yritys ei pysty maksamaan markkinapalkkoja, ja se vähentää kasvurahaa."
+        },
+        {
+          "option": 3,
+          "name": "Alle markkinapalkan + voitonjako",
+          "description": "Osakkaat nostavat pienempää palkkaa (esim. 50–70 % markkinapalkasta) ja paikkaavat erotuksen myöhemmin voitonjaolla. Tämä tasapainottaa henkilökohtaiset tarpeet ja yrityksen kassaa. Se vaatii lyhyen aikavälin joustoa ja olettaa, että voittoa tulee myöhemmin."
+        }
+      ]
+    },
+    "profit_distribution": {
+      "order": 5,
+      "angleDeg": 180,
+      "name": "Voitonjako",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Omistusosuuksien mukaan",
+          "description": "Voitot jaetaan omistusprosenttien mukaan. Jos omistat 40 %, saat 40 % voitoista. Tämä on selkeä ja yhdistää voiton omistusriskin kanssa. Haittapuoli on, ettei se aina huomioi nykyistä työpanosta, jos joku tekee paljon enemmän töitä."
+        },
+        {
+          "option": 2,
+          "name": "Tasajaolla, omistuksesta riippumatta",
+          "description": "Voitot jaetaan yhtä suurina osuuksina riippumatta omistuksesta. Tämä voi palkita nykyistä tekemistä ja lisätä yhteenkuuluvuutta. Haittapuoli on, että se irrottaa voitot omistuksesta, mikä voi tuntua epäreilulta sille, joka sijoitti enemmän rahaa tai otti isomman riskin alussa."
+        },
+        {
+          "option": 3,
+          "name": "Palkat ensin, sitten loput omistuksen mukaan",
+          "description": "Ensin maksetaan sovitut palkat. Sen jälkeen jäljelle jäävä voitto jaetaan omistusosuuksien mukaan. Tämä varmistaa perustulon ennen voitonjakoa. Haittapuoli on lisämonimutkaisuus: pitää määritellä, mikä on palkkaa ja miten kahta jakoa hallitaan."
+        }
+      ]
+    },
+    "decision_authority": {
+      "order": 6,
+      "angleDeg": 225,
+      "name": "Päätösvalta",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Yksimielisyys isoissa päätöksissä",
+          "description": "Suuret päätökset vaativat kaikkien hyväksynnän. Esimerkkejä ovat isot hankinnat, rekrytoinnit, strategian muutokset tai sijoitukset. Tämä suojaa vähemmistöä ja lisää sitoutumista. Haittapuoli on, että erimielisyydet voivat hidastaa kaikkea ja yritys voi jumittua."
+        },
+        {
+          "option": 2,
+          "name": "Vastuualueittain delegoitu",
+          "description": "Jokaisella on viimeinen sana omassa vastuualueessaan. Tämä nopeuttaa päätöksiä ja hyödyntää osaamista. Riski on, että rajat voivat olla epäselviä ja yhden päätös voi vaikuttaa toisen työhön tai budjettiin."
+        },
+        {
+          "option": 3,
+          "name": "Toimitusjohtajamalli",
+          "description": "Yhdelle osakkaalle annetaan viimeinen sana, jos yhteistä päätöstä ei synny. Muut antavat näkemyksensä, mutta tämä henkilö päättää. Tämä estää pattitilanteet ja tuo vastuunkantoa. Haittapuoli on katkeruus, jos johtaja ei kuuntele tai tekee toistuvasti huonoja päätöksiä."
+        }
+      ]
+    },
+    "voting_control": {
+      "order": 7,
+      "angleDeg": 270,
+      "name": "Äänivalta",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Omistusosuuksien mukaan",
+          "description": "Äänivalta seuraa omistusta. Jos omistat 45 %, äänesi paino on 45 %. Tämä yhdistää vallan rahalliseen riskiin. Haittapuoli on, että pienemmät omistajat voivat kokea olevansa sivussa, etenkin arkea koskevissa päätöksissä."
+        },
+        {
+          "option": 2,
+          "name": "Yksi ääni per osakas",
+          "description": "Jokaisella on yksi yhtä painava ääni, omistuksesta riippumatta. Tämä pitää vallan tasapainossa ja estää yhden henkilön ylivaltaa. Haittapuoli on, että se voi tuntua epäreilulta, jos joku omistaa selvästi enemmän yrityksestä."
+        },
+        {
+          "option": 3,
+          "name": "Asiantuntija päättää alueellaan",
+          "description": "Tiettyä aihetta koskevissa päätöksissä ratkaiseva ääni on sillä, jolla on eniten osaamista. Tämä voi nopeuttaa päätöksiä ja parantaa laatua. Haittapuoli on rajojen määrittely ja se, että asiantuntijan pitää silti kuunnella muita."
+        }
+      ]
+    },
+    "exit_mechanism": {
+      "order": 8,
+      "angleDeg": 315,
+      "name": "Eroaminen ja lunastus",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Kirjanpitoarvon mukainen lunastus",
+          "description": "Lähtevä osakas myy osuutensa kirjanpitoarvolla (varat miinus velat). Tämä perustuu todellisiin numeroihin ja on helppo selittää. Haittapuoli on, että kasvavan yrityksen arvo voi olla paljon suurempi kuin kirjanpitoarvo, koska tulevaisuuden mahdollisuudet eivät näy luvuissa."
+        },
+        {
+          "option": 2,
+          "name": "Liikevaihtokerroin",
+          "description": "Hinta lasketaan kaavalla: vuosiliikevaihto kertaa sovittu kerroin (esim. 2× tai 3×). Tämä voi kuvata yrityksen vauhtia. Haittapuoli on, että liikevaihto ei aina tarkoita kannattavuutta, ja liikevaihto voi muuttua nopeasti."
+        },
+        {
+          "option": 3,
+          "name": "Shotgun-lauseke",
+          "description": "Yksi osakas määrittää hinnan koko yritykselle. Toisen on valittava: ostaako vai myykö samalla hinnalla. Tämä pakottaa hinnan reiluksi. Se toimii parhaiten kahden osakkaan tilanteessa ja on vaikeampi, jos osakkaita on kolme tai enemmän."
+        }
+      ]
+    }
+  }
+}

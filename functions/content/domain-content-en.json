@@ -1,0 +1,165 @@
+{
+  "language": "en",
+  "domains": {
+    "equity_ownership": {
+      "name": "Equity Ownership",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Equal Split",
+          "description": "Every partner owns the same percentage. It does not matter how much money someone invested or how many hours they worked. This is simple and can feel fair because everyone is treated as equally important. The risk is that if one person later puts in much more time or takes more financial risk, they may feel it is unfair."
+        },
+        {
+          "option": 2,
+          "name": "Weighted by Capital",
+          "description": "Ownership is based on how much money each partner invests. If someone puts in more cash, they get a larger share. This protects people who take more financial risk. The downside is that it can undervalue the partner who brings time, skills, and experience instead of cash."
+        },
+        {
+          "option": 3,
+          "name": "Weighted by Role",
+          "description": "Ownership is based on how important each person’s role and skills are for the business. People doing the most critical work or bringing rare expertise get a larger share. This rewards contribution quality, not just money or hours. The hard part is agreeing what roles matter most, and roles can change over time."
+        }
+      ]
+    },
+    "capital_contribution": {
+      "name": "Capital Contribution",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Equal Ongoing Requirements",
+          "description": "Whenever the business needs more money, everyone must invest the same amount. For example, if the company needs €30,000 and there are three partners, each pays €10,000. This keeps financial power balanced. The risk is that not everyone will have the same access to cash when needed."
+        },
+        {
+          "option": 2,
+          "name": "Initial Investment Credited Forever",
+          "description": "Money invested at the start always counts as a permanent credit. If you put in €50,000 at launch, that credit stays when you later compare ownership or profit shares. This protects early risk-takers. The downside is that it may not match who keeps funding the business later."
+        },
+        {
+          "option": 3,
+          "name": "Sweat Equity Conversion",
+          "description": "Time and work can be treated like an investment, not only cash. Work hours get a euro value and are counted as contributions. This helps partners who have skills but not money. The hard part is agreeing the value of an hour and tracking time in a consistent way."
+        }
+      ]
+    },
+    "time_effort": {
+      "name": "Time/Effort Expectation",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Equal Full-Time Commitment",
+          "description": "Every partner agrees to work the same number of hours per week, often 40+ hours. This makes the workload feel balanced and reduces the chance that someone feels used. The downside is that life changes, and equal hours do not always mean equal impact."
+        },
+        {
+          "option": 2,
+          "name": "Asymmetric Roles with Defined Percentages",
+          "description": "Partners agree that different roles need different time levels. One person might do 50% time while another does 100%. Expectations are written clearly as percentages. This adds flexibility, but it can create conflict if people disagree about whether someone is meeting their commitment."
+        },
+        {
+          "option": 3,
+          "name": "Outcome-Based, No Time Tracking",
+          "description": "Partners focus on results, not on hours. If your responsibilities are completed well, it does not matter when you work. This gives freedom and keeps attention on what matters. It needs clear goals and can fail if partners have different standards for what “good” looks like."
+        }
+      ]
+    },
+    "compensation_structure": {
+      "name": "Compensation Structure",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "No Salary, Profit Distribution Only",
+          "description": "Partners do not take a regular wage. Money is paid out only when the business makes profit, using an agreed split. This keeps more cash inside the business. The downside is that partners need savings or other income, which can favor partners with more personal money."
+        },
+        {
+          "option": 2,
+          "name": "Market-Rate Salary Plus Profit Share",
+          "description": "Each partner is paid a normal market salary for their job, like they would earn elsewhere. After that, any profits are shared separately. This helps partners pay bills, but many new businesses cannot afford market salaries and it reduces money available for growth."
+        },
+        {
+          "option": 3,
+          "name": "Founder Salary Below Market Plus Profit Share",
+          "description": "Partners take a lower salary (for example 50–70% of market rate) and later make up the difference through profit sharing. This balances personal needs and business cash. It requires short-term sacrifice and assumes profit will eventually arrive."
+        }
+      ]
+    },
+    "profit_distribution": {
+      "name": "Profit Distribution",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proportional to Equity",
+          "description": "Profits are shared based on ownership percentage. If you own 40%, you receive 40% of profits. This is simple and matches profit to ownership risk. The downside is that it may not reflect who is currently doing the most work."
+        },
+        {
+          "option": 2,
+          "name": "Equal Regardless of Equity",
+          "description": "Profits are split equally between partners, no matter who owns more shares. This can reward current effort and build unity. The downside is that it separates profit from ownership, which can feel unfair to someone who invested more money or took higher risk early on."
+        },
+        {
+          "option": 3,
+          "name": "Tiered: Salary First, Then Proportional Residual",
+          "description": "Partners first receive their agreed salaries. Then the remaining profit is split based on ownership percentages. This gives baseline income before profit sharing. The downside is extra complexity: you must define what counts as salary and manage two different formulas."
+        }
+      ]
+    },
+    "decision_authority": {
+      "name": "Decision Authority",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Unanimous for Material Decisions",
+          "description": "Big decisions require everyone to agree. Examples are large spending, hiring, strategy changes, or investments. This protects minority partners and increases buy-in. The downside is that disagreements can slow everything down and the business can get stuck."
+        },
+        {
+          "option": 2,
+          "name": "Delegated by Domain",
+          "description": "Each partner has final say in their own area of responsibility. This speeds up decisions and respects expertise. The risk is that boundaries can be unclear, and one person’s decision may impact another person’s work or budget."
+        },
+        {
+          "option": 3,
+          "name": "Managing Director Model with Final Say",
+          "description": "One partner has the final say when agreement cannot be reached. Others give input, but this person decides. This prevents deadlock and creates accountability. The downside is possible resentment if the leader ignores others or makes repeated poor decisions."
+        }
+      ]
+    },
+    "voting_control": {
+      "name": "Voting Control",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proportional to Equity",
+          "description": "Voting power matches ownership percentage. If you own 45%, your vote counts as 45%. This aligns control with financial risk. The downside is that smaller owners may feel powerless, especially on decisions that affect daily work."
+        },
+        {
+          "option": 2,
+          "name": "Equal Regardless of Equity",
+          "description": "Each partner gets one vote with equal weight, no matter ownership. This keeps power balanced and prevents one person from dominating. The downside is that it can feel unfair if one person owns much more of the company."
+        },
+        {
+          "option": 3,
+          "name": "Domain-Specific Expert Decides",
+          "description": "For a given topic, the partner with the most expertise has the deciding vote. This can speed up decisions and use the right knowledge. The downside is defining clear boundaries and making sure experts still listen to others."
+        }
+      ]
+    },
+    "exit_mechanism": {
+      "name": "Exit Mechanism",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Book Value Buyout",
+          "description": "When someone leaves, they sell their shares based on the company’s book value (assets minus debts). This uses real numbers and is easy to explain. The downside is that book value often undervalues a growing business because it ignores future potential and brand value."
+        },
+        {
+          "option": 2,
+          "name": "Revenue Multiple Formula",
+          "description": "The exit price is based on a simple formula: annual revenue times an agreed multiple (for example 2× or 3×). This can reflect business momentum. The downside is that revenue does not always mean profit, and revenue can drop quickly."
+        },
+        {
+          "option": 3,
+          "name": "Shotgun Clause",
+          "description": "One partner names a price for the whole company. The other must choose to buy or sell at that price. This pushes the price to be fair. It works best with two partners and can be harder to apply when there are three or more partners."
+        }
+      ]
+    }
+  }
+}

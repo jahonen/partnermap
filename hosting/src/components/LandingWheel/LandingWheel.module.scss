@@ -1,0 +1,38 @@
+.wheelButton {
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.wheelFrame {
+  width: min(520px, 90vw);
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.domainLabel {
+  font-family: var(--font-secondary);
+  font-size: 10px;
+  font-weight: 500;
+  fill: rgba(44, 53, 57, 0.9);
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}
+
+.centerText {
+  font-family: var(--font-primary);
+  font-size: 12px;
+  font-weight: 500;
+  fill: var(--color-method-burgundy);
+  text-anchor: middle;
+  dominant-baseline: middle;
+  pointer-events: none;
+}

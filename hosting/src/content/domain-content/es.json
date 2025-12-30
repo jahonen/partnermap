@@ -1,0 +1,240 @@
+{
+  "language": "es",
+  "frontPage": {
+    "h1": "Alinea a los cofundadores antes de redactar contratos.",
+    "lead": "Una forma simple y estructurada para fundadores de startups de hablar sobre propiedad, roles, dinero, decisiones y salida. El objetivo es lograr alineación a alto nivel antes de negociar formalmente y crear documentos legales.",
+    "primaryCta": "Continuar",
+    "secondaryPrefix": "¿Tienes un código de invitación? Ve a",
+    "secondaryLinkText": "Registrarte",
+    "secondarySuffix": ".",
+    "disclaimer": "Esta herramienta apoya la conversación. No es asesoría legal y no es una herramienta para redactar contratos."
+  },
+  "ui": {
+    "languageLabel": "Idioma",
+    "login": "Iniciar sesión",
+    "loading": "Cargando…",
+    "dashboardTitle": "Panel",
+    "companyLabel": "Empresa",
+    "inviteCodeLabel": "Código de invitación",
+    "yourRoleLabel": "Tu rol",
+    "startAssessment": "Empezar / continuar evaluación",
+    "reviewSummary": "Ver resumen",
+    "finalize": "Finalizar",
+    "signOut": "Cerrar sesión",
+    "assessmentTitle": "Evaluación",
+    "assessmentNote": "Elige un dominio y revisa opciones comunes y sus compromisos.",
+    "domainsLabel": "Dominios",
+    "loadingSavedSelections": "Cargando selecciones guardadas…",
+    "failedToLoadSavedSelections": "No se pudieron cargar las selecciones",
+    "failedToSave": "No se pudo guardar",
+    "saving": "Guardando…",
+    "reviewTitle": "Revisión",
+    "reviewNote": "Revisa tus selecciones, compara con otros y agrega comentarios.",
+    "failedToLoadResponses": "No se pudieron cargar las respuestas",
+    "loadingCompanyView": "Cargando vista de la empresa…",
+    "failedToLoadCompanyResponses": "No se pudieron cargar las respuestas de la empresa",
+    "failedToLoadParticipants": "No se pudieron cargar los participantes",
+    "optionLabel": "Opción",
+    "notSelected": "No seleccionado",
+    "conflictsTitle": "Diferencias",
+    "noSelectionsYet": "Aún no hay selecciones",
+    "commentsTitle": "Comentarios",
+    "loadingComments": "Cargando comentarios…",
+    "failedToLoadComments": "No se pudieron cargar los comentarios",
+    "failedToAddComment": "No se pudo agregar el comentario",
+    "commentPlaceholder": "Agregar un comentario (máx. 500 caracteres)",
+    "posting": "Publicando…",
+    "postComment": "Publicar comentario",
+    "noCommentsYet": "Aún no hay comentarios.",
+    "finalTitle": "Final",
+    "finalNote": "Descarga tus selecciones como un archivo blueprint simple.",
+    "approvalsTitle": "Aprobaciones",
+    "approvalsNote": "Cada participante puede aprobar cuando esté conforme con la versión actual.",
+    "approve": "Aprobar",
+    "unapprove": "Quitar aprobación",
+    "approved": "Aprobado",
+    "notApproved": "No aprobado",
+    "downloadBlueprint": "Descargar blueprint (JSON)",
+    "failedToLoadCompany": "No se pudieron cargar los datos de la empresa",
+    "adminResendClosedEmail": "Reenviar correo de confirmación",
+    "adminResendClosedEmailHelp": "Reenvía el correo de cierre a todos los socios."
+  },
+  "domains": {
+    "equity_ownership": {
+      "order": 1,
+      "angleDeg": 0,
+      "name": "Propiedad (equity)",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Reparto igual",
+          "description": "Todos los socios tienen el mismo porcentaje. No importa quién puso más dinero o trabajó más horas. Es simple y suele sentirse justo. El riesgo es que, si con el tiempo una persona trabaja mucho más o asume más riesgo económico, puede sentirse tratada de forma injusta."
+        },
+        {
+          "option": 2,
+          "name": "Según el capital aportado",
+          "description": "La propiedad depende del dinero que aporta cada socio. Quien pone más dinero recibe un porcentaje mayor. Esto protege a quien asume más riesgo financiero. La desventaja es que puede valorar menos al socio que aporta tiempo, habilidades y experiencia en lugar de dinero."
+        },
+        {
+          "option": 3,
+          "name": "Según el rol",
+          "description": "La propiedad depende de lo importante que sea el rol y las habilidades de cada persona para la empresa. Quien hace el trabajo más crítico o aporta una habilidad rara recibe más porcentaje. Esto premia el valor del aporte. Lo difícil es acordar qué roles pesan más, y los roles pueden cambiar con el tiempo."
+        }
+      ]
+    },
+    "capital_contribution": {
+      "order": 2,
+      "angleDeg": 45,
+      "name": "Aporte de capital",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Aportes futuros iguales",
+          "description": "Cuando la empresa necesita más dinero, todos aportan la misma cantidad. Si se necesitan 30.000€ y son tres socios, cada uno aporta 10.000€. Esto mantiene el poder equilibrado. El riesgo es que no todos tendrán dinero disponible al mismo tiempo."
+        },
+        {
+          "option": 2,
+          "name": "La inversión inicial cuenta siempre",
+          "description": "El dinero invertido al inicio cuenta como un crédito permanente. Si aportas 50.000€ al comienzo, se seguirá considerando al comparar propiedad o reparto de beneficios. Esto protege a quien arriesgó primero. La desventaja es que no siempre refleja quién sigue financiando la empresa más adelante."
+        },
+        {
+          "option": 3,
+          "name": "Convertir trabajo en capital",
+          "description": "El tiempo y el trabajo pueden contarse como inversión, no solo el dinero. Las horas de trabajo se convierten a un valor en euros y se registran como aporte. Esto ayuda a socios con habilidades pero poco dinero. Lo difícil es acordar el valor de una hora y registrar el tiempo de forma consistente."
+        }
+      ]
+    },
+    "time_effort": {
+      "order": 3,
+      "angleDeg": 90,
+      "name": "Tiempo / esfuerzo",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Compromiso igual a tiempo completo",
+          "description": "Todos los socios trabajan la misma cantidad de horas por semana, normalmente 40+ horas. Esto reduce la sensación de abuso. La desventaja es que la vida cambia, y las mismas horas no siempre significan el mismo valor."
+        },
+        {
+          "option": 2,
+          "name": "Roles distintos con porcentajes",
+          "description": "Se acuerda que cada rol requiere un nivel de tiempo distinto. Una persona puede trabajar 50% y otra 100%. Las expectativas se dejan por escrito como porcentajes. Esto da flexibilidad, pero puede generar conflicto si no están de acuerdo sobre si alguien cumple su compromiso."
+        },
+        {
+          "option": 3,
+          "name": "Basado en resultados",
+          "description": "Se evalúa por resultados, no por horas. Si cumples bien tus responsabilidades, no importa cuándo trabajas. Esto da libertad y foco. Necesita objetivos claros y falla si los socios tienen estándares diferentes sobre qué es “bien hecho”."
+        }
+      ]
+    },
+    "compensation_structure": {
+      "order": 4,
+      "angleDeg": 135,
+      "name": "Compensación",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Sin salario, solo beneficios",
+          "description": "Los socios no cobran un salario fijo. Solo se retira dinero cuando hay beneficios, según la regla acordada. Esto deja más dinero en la empresa para crecer. La desventaja es que se necesitan ahorros u otros ingresos, lo que puede favorecer a quien ya tiene dinero."
+        },
+        {
+          "option": 2,
+          "name": "Salario de mercado + beneficios",
+          "description": "Cada socio cobra un salario normal de mercado por su trabajo, y luego los beneficios restantes se reparten aparte. Esto ayuda a pagar gastos, pero muchas empresas jóvenes no pueden pagar salarios de mercado y se reduce el dinero para crecer."
+        },
+        {
+          "option": 3,
+          "name": "Salario menor + beneficios",
+          "description": "Los socios cobran un salario reducido (por ejemplo 50–70% del mercado) y compensan más adelante con el reparto de beneficios. Esto equilibra necesidades personales y caja de la empresa. Requiere sacrificio a corto plazo y asumir que habrá beneficios en el futuro."
+        }
+      ]
+    },
+    "profit_distribution": {
+      "order": 5,
+      "angleDeg": 180,
+      "name": "Reparto de beneficios",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proporcional a la propiedad",
+          "description": "Los beneficios se reparten según el porcentaje de propiedad. Si tienes 40%, recibes 40% de los beneficios. Es simple y se alinea con el riesgo de ser propietario. La desventaja es que no siempre refleja quién está trabajando más hoy."
+        },
+        {
+          "option": 2,
+          "name": "Igual para todos",
+          "description": "Los beneficios se reparten por igual entre socios, sin importar su porcentaje de propiedad. Esto puede premiar el esfuerzo actual y crear unión. La desventaja es que separa beneficios y propiedad, lo que puede parecer injusto para quien invirtió más o tomó más riesgo al inicio."
+        },
+        {
+          "option": 3,
+          "name": "Primero salario, luego resto proporcional",
+          "description": "Primero se pagan los salarios acordados. Luego, el dinero restante se reparte según la propiedad. Esto asegura un ingreso base antes del reparto de beneficios. La desventaja es la complejidad: hay que definir qué es salario y gestionar dos reglas distintas."
+        }
+      ]
+    },
+    "decision_authority": {
+      "order": 6,
+      "angleDeg": 225,
+      "name": "Autoridad de decisión",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Unanimidad en decisiones importantes",
+          "description": "Las decisiones grandes requieren que todos estén de acuerdo. Ejemplos: gastos grandes, contrataciones, cambios de estrategia o inversiones. Esto protege a los socios minoritarios. La desventaja es que las diferencias pueden bloquear y ralentizar la empresa."
+        },
+        {
+          "option": 2,
+          "name": "Decisión por área",
+          "description": "Cada socio tiene la última palabra en su área de responsabilidad. Esto acelera decisiones y respeta la experiencia. El riesgo es que los límites entre áreas no siempre están claros y una decisión puede afectar a otros."
+        },
+        {
+          "option": 3,
+          "name": "Director con última palabra",
+          "description": "Una persona tiene la última palabra cuando no hay acuerdo. Los demás opinan, pero esa persona decide. Esto evita bloqueos y da claridad. La desventaja es que puede crear resentimiento si el líder no escucha o decide mal repetidamente."
+        }
+      ]
+    },
+    "voting_control": {
+      "order": 7,
+      "angleDeg": 270,
+      "name": "Control de voto",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proporcional a la propiedad",
+          "description": "El poder de voto sigue el porcentaje de propiedad. Si tienes 45%, tu voto cuenta como 45%. Esto alinea control y riesgo económico. La desventaja es que los socios minoritarios pueden sentirse sin poder."
+        },
+        {
+          "option": 2,
+          "name": "Un voto por socio",
+          "description": "Cada socio tiene un voto con el mismo peso, sin importar su propiedad. Esto mantiene el equilibrio y evita que alguien domine. La desventaja es que puede parecer injusto si una persona posee mucho más."
+        },
+        {
+          "option": 3,
+          "name": "Decide el experto",
+          "description": "En cada tema, el socio con más conocimiento tiene el voto decisivo. Esto puede mejorar y acelerar decisiones. El reto es definir bien las áreas y asegurar que el experto también escuche a los demás."
+        }
+      ]
+    },
+    "exit_mechanism": {
+      "order": 8,
+      "angleDeg": 315,
+      "name": "Salida",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Compra por valor contable",
+          "description": "Cuando alguien se va, vende su parte según el valor contable (activos menos deudas). Usa números reales y es fácil de explicar. La desventaja es que suele valorar poco a una empresa en crecimiento porque no incluye el potencial futuro ni el valor de la marca."
+        },
+        {
+          "option": 2,
+          "name": "Fórmula por múltiplo de ingresos",
+          "description": "El precio se calcula como ingresos anuales por un múltiplo acordado (por ejemplo 2× o 3×). Esto puede reflejar el impulso del negocio. La desventaja es que los ingresos no siempre significan beneficios y pueden caer rápido."
+        },
+        {
+          "option": 3,
+          "name": "Cláusula shotgun",
+          "description": "Un socio pone un precio para toda la empresa. El otro debe elegir: comprar o vender a ese precio. Esto empuja a un precio justo. Funciona mejor con dos socios y es más difícil con tres o más."
+        }
+      ]
+    }
+  }
+}

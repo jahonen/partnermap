@@ -1,0 +1,240 @@
+{
+  "language": "de",
+  "frontPage": {
+    "h1": "Stimmt euch als Co-Founder ab, bevor ihr Verträge schreibt.",
+    "lead": "Ein einfacher, strukturierter Weg für Startup-Gründer, über Eigentum, Rollen, Geld, Entscheidungen und Ausstieg zu sprechen. Ziel ist eine gemeinsame Richtung vor formellen Verhandlungen und rechtlichen Dokumenten.",
+    "primaryCta": "Weiter",
+    "secondaryPrefix": "Hast du einen Einladungscode? Gehe zu",
+    "secondaryLinkText": "Registrieren",
+    "secondarySuffix": ".",
+    "disclaimer": "Dieses Tool unterstützt strukturierte Gespräche. Es ist keine Rechtsberatung und kein Vertragsgenerator."
+  },
+  "ui": {
+    "languageLabel": "Sprache",
+    "login": "Login",
+    "loading": "Lädt…",
+    "dashboardTitle": "Übersicht",
+    "companyLabel": "Unternehmen",
+    "inviteCodeLabel": "Einladungscode",
+    "yourRoleLabel": "Deine Rolle",
+    "startAssessment": "Assessment starten / fortsetzen",
+    "reviewSummary": "Zusammenfassung ansehen",
+    "finalize": "Finalisieren",
+    "signOut": "Abmelden",
+    "assessmentTitle": "Assessment",
+    "assessmentNote": "Wähle einen Bereich und sieh typische Optionen und Abwägungen.",
+    "domainsLabel": "Bereiche",
+    "loadingSavedSelections": "Gespeicherte Auswahl wird geladen…",
+    "failedToLoadSavedSelections": "Gespeicherte Auswahl konnte nicht geladen werden",
+    "failedToSave": "Speichern fehlgeschlagen",
+    "saving": "Speichert…",
+    "reviewTitle": "Review",
+    "reviewNote": "Sieh deine Auswahl, vergleiche mit anderen und füge Kommentare hinzu.",
+    "failedToLoadResponses": "Antworten konnten nicht geladen werden",
+    "loadingCompanyView": "Unternehmensansicht wird geladen…",
+    "failedToLoadCompanyResponses": "Unternehmensantworten konnten nicht geladen werden",
+    "failedToLoadParticipants": "Teilnehmer konnten nicht geladen werden",
+    "optionLabel": "Option",
+    "notSelected": "Nicht gewählt",
+    "conflictsTitle": "Unterschiede",
+    "noSelectionsYet": "Noch keine Auswahl",
+    "commentsTitle": "Kommentare",
+    "loadingComments": "Kommentare werden geladen…",
+    "failedToLoadComments": "Kommentare konnten nicht geladen werden",
+    "failedToAddComment": "Kommentar konnte nicht hinzugefügt werden",
+    "commentPlaceholder": "Kommentar hinzufügen (max. 500 Zeichen)",
+    "posting": "Sendet…",
+    "postComment": "Kommentar senden",
+    "noCommentsYet": "Noch keine Kommentare.",
+    "finalTitle": "Final",
+    "finalNote": "Exportiere deine Auswahl als einfache Blueprint-Datei.",
+    "approvalsTitle": "Freigaben",
+    "approvalsNote": "Jede Person kann freigeben, wenn die aktuelle Version passt.",
+    "approve": "Freigeben",
+    "unapprove": "Freigabe zurücknehmen",
+    "approved": "Freigegeben",
+    "notApproved": "Nicht freigegeben",
+    "downloadBlueprint": "Blueprint herunterladen (JSON)",
+    "failedToLoadCompany": "Unternehmensdaten konnten nicht geladen werden",
+    "adminResendClosedEmail": "Bestätigungs-E-Mail erneut senden",
+    "adminResendClosedEmailHelp": "Sendet die Abschluss-E-Mail erneut an alle Partner."
+  },
+  "domains": {
+    "equity_ownership": {
+      "order": 1,
+      "angleDeg": 0,
+      "name": "Unternehmensanteile",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Gleiche Aufteilung",
+          "description": "Alle Partner besitzen den gleichen Prozentsatz. Es ist egal, wer mehr Geld investiert oder mehr Stunden arbeitet. Das ist einfach und fühlt sich oft fair an. Das Risiko: Wenn später eine Person viel mehr arbeitet oder mehr Geldrisiko trägt, kann sie die Aufteilung als unfair empfinden."
+        },
+        {
+          "option": 2,
+          "name": "Nach Kapital gewichtet",
+          "description": "Die Anteile richten sich danach, wie viel Geld jede Person investiert. Wer mehr Geld einbringt, bekommt einen größeren Anteil. Das schützt Menschen mit höherem finanziellen Risiko. Der Nachteil: Zeit, Können und Erfahrung können zu wenig berücksichtigt werden."
+        },
+        {
+          "option": 3,
+          "name": "Nach Rolle gewichtet",
+          "description": "Die Anteile richten sich danach, wie wichtig die Rolle und die Fähigkeiten der Person für das Unternehmen sind. Wer kritische Aufgaben übernimmt oder seltene Kenntnisse hat, bekommt mehr. Das belohnt die Bedeutung des Beitrags. Schwierigkeit: Sich zu einigen, welche Rollen wichtiger sind, und Rollen können sich mit der Zeit ändern."
+        }
+      ]
+    },
+    "capital_contribution": {
+      "order": 2,
+      "angleDeg": 45,
+      "name": "Kapitalbeiträge",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Gleiche Nachschusspflicht",
+          "description": "Wenn das Unternehmen mehr Geld braucht, zahlen alle den gleichen Betrag. Wenn 30.000€ nötig sind und es drei Partner gibt, zahlt jeder 10.000€. Das hält die Macht durch Geld im Gleichgewicht. Das Risiko: Nicht alle haben jederzeit gleich viel Geld verfügbar."
+        },
+        {
+          "option": 2,
+          "name": "Startinvestition zählt dauerhaft",
+          "description": "Geld, das am Anfang investiert wird, zählt dauerhaft als „Guthaben“. Wenn du zum Start 50.000€ eingebracht hast, wird das später bei Eigentum oder Gewinnen weiterhin berücksichtigt. Das schützt frühe Risiko-Träger. Der Nachteil: Es spiegelt nicht immer wider, wer später weiter finanziert."
+        },
+        {
+          "option": 3,
+          "name": "Arbeitsleistung als Kapital",
+          "description": "Zeit und Arbeit können wie eine Investition behandelt werden, nicht nur Bargeld. Arbeitsstunden bekommen einen Euro-Wert und werden als Beitrag gezählt. Das hilft Partnern mit Fähigkeiten, aber wenig Geld. Schwierigkeit: Einen fairen Stundenwert festlegen und die Zeit zuverlässig erfassen."
+        }
+      ]
+    },
+    "time_effort": {
+      "order": 3,
+      "angleDeg": 90,
+      "name": "Zeit / Einsatz",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Gleiche Vollzeit",
+          "description": "Alle Partner arbeiten die gleiche Anzahl Stunden pro Woche, oft 40+ Stunden. Das kann fair wirken und verhindert, dass sich jemand ausgenutzt fühlt. Nachteil: Lebensumstände ändern sich, und gleiche Stunden bedeuten nicht immer gleiche Wirkung."
+        },
+        {
+          "option": 2,
+          "name": "Unterschiedliche Rollen mit Prozent",
+          "description": "Ihr vereinbart unterschiedliche Zeitanteile je nach Rolle. Eine Person arbeitet z.B. 50%, eine andere 100%. Die Erwartungen werden klar als Prozent festgehalten. Das ist flexibel, kann aber Konflikte auslösen, wenn man sich über die tatsächliche Leistung nicht einig ist."
+        },
+        {
+          "option": 3,
+          "name": "Ergebnisorientiert",
+          "description": "Es zählen Ergebnisse, nicht Stunden. Wenn deine Aufgaben gut erledigt sind, ist es egal, wann du arbeitest. Das gibt Freiheit und Fokus. Es braucht klare Ziele und funktioniert schlecht, wenn Partner unterschiedliche Maßstäbe haben, was „gut“ bedeutet."
+        }
+      ]
+    },
+    "compensation_structure": {
+      "order": 4,
+      "angleDeg": 135,
+      "name": "Vergütung",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Kein Gehalt, nur Gewinn",
+          "description": "Partner bekommen kein regelmäßiges Gehalt. Geld wird nur ausgeschüttet, wenn das Unternehmen Gewinn macht, nach der vereinbarten Formel. So bleibt mehr Geld für Wachstum im Unternehmen. Nachteil: Partner brauchen Ersparnisse oder andere Einnahmen, was wohlhabendere Personen begünstigen kann."
+        },
+        {
+          "option": 2,
+          "name": "Marktgehalt plus Gewinnanteil",
+          "description": "Jeder Partner bekommt ein marktübliches Gehalt für seine Rolle. Danach wird der restliche Gewinn separat verteilt. Das hilft bei laufenden Kosten, aber junge Unternehmen können Marktgehälter oft nicht zahlen und es bleibt weniger Geld für Wachstum."
+        },
+        {
+          "option": 3,
+          "name": "Unter Marktgehalt plus Gewinnanteil",
+          "description": "Partner nehmen ein reduziertes Gehalt (z.B. 50–70% des Marktgehalts) und gleichen später über Gewinn aus. Das balanciert persönliche Bedürfnisse und Unternehmens-Kasse. Es erfordert kurzfristigen Verzicht und setzt voraus, dass später Gewinne entstehen."
+        }
+      ]
+    },
+    "profit_distribution": {
+      "order": 5,
+      "angleDeg": 180,
+      "name": "Gewinnverteilung",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Nach Eigentumsanteil",
+          "description": "Gewinne werden nach Eigentumsprozentsatz verteilt. Wer 40% besitzt, bekommt 40% Gewinn. Das ist einfach und passt zu Eigentumsrisiko. Nachteil: Es spiegelt nicht immer den aktuellen Arbeitseinsatz wider."
+        },
+        {
+          "option": 2,
+          "name": "Gleich, unabhängig vom Anteil",
+          "description": "Gewinne werden gleich verteilt, egal wer mehr Anteile besitzt. Das kann den aktuellen Einsatz belohnen und Teamgefühl stärken. Nachteil: Es trennt Gewinn von Eigentum und kann unfair wirken für jemanden, der am Anfang mehr Geld oder Risiko eingebracht hat."
+        },
+        {
+          "option": 3,
+          "name": "Erst Gehalt, dann Rest nach Anteil",
+          "description": "Zuerst werden vereinbarte Gehälter bezahlt. Dann wird der verbleibende Gewinn nach Eigentumsanteilen verteilt. Das sichert ein Grund-Einkommen. Nachteil: Mehr Komplexität, weil man Gehalt und Gewinn klar trennen und zwei Regeln verwalten muss."
+        }
+      ]
+    },
+    "decision_authority": {
+      "order": 6,
+      "angleDeg": 225,
+      "name": "Entscheidungsbefugnis",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Einstimmig bei großen Entscheidungen",
+          "description": "Große Entscheidungen brauchen Zustimmung von allen. Beispiele sind große Ausgaben, Einstellungen, Strategieänderungen oder Investitionen. Das schützt Minderheiten und erhöht die gemeinsame Unterstützung. Nachteil: Uneinigkeit kann alles verlangsamen und das Unternehmen blockieren."
+        },
+        {
+          "option": 2,
+          "name": "Nach Bereich delegiert",
+          "description": "Jeder Partner entscheidet final in seinem Verantwortungsbereich. Das macht Entscheidungen schneller und nutzt Expertise. Risiko: Grenzen sind nicht immer klar, und eine Entscheidung kann andere Bereiche stark beeinflussen."
+        },
+        {
+          "option": 3,
+          "name": "Geschäftsführer-Modell",
+          "description": "Eine Person hat das letzte Wort, wenn keine Einigung möglich ist. Die anderen geben Input, aber diese Person entscheidet. Das verhindert Stillstand und schafft Verantwortung. Nachteil: Es kann Frust geben, wenn die Person andere ignoriert oder wiederholt schlechte Entscheidungen trifft."
+        }
+      ]
+    },
+    "voting_control": {
+      "order": 7,
+      "angleDeg": 270,
+      "name": "Stimmrechte",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Nach Eigentumsanteil",
+          "description": "Stimmgewicht folgt dem Eigentum. Wer 45% besitzt, hat 45% Stimmgewicht. Das verbindet Kontrolle mit finanziellem Risiko. Nachteil: Kleinere Eigentümer können sich machtlos fühlen."
+        },
+        {
+          "option": 2,
+          "name": "Eine Stimme pro Partner",
+          "description": "Jeder Partner hat eine gleichwertige Stimme, unabhängig vom Anteil. Das hält Macht im Gleichgewicht. Nachteil: Es kann unfair wirken, wenn jemand viel mehr Eigentum hat."
+        },
+        {
+          "option": 3,
+          "name": "Expertin/Experte entscheidet",
+          "description": "Bei einem Thema hat die Person mit der meisten Expertise die entscheidende Stimme. Das kann Entscheidungen verbessern und beschleunigen. Herausforderung: Bereiche klar definieren und sicherstellen, dass Expertinnen/Experten trotzdem zuhören."
+        }
+      ]
+    },
+    "exit_mechanism": {
+      "order": 8,
+      "angleDeg": 315,
+      "name": "Ausstieg",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Abfindung zum Buchwert",
+          "description": "Beim Ausstieg verkauft man die Anteile zum Buchwert (Vermögen minus Schulden). Das ist objektiv und leicht zu erklären. Nachteil: Buchwert ist oft zu niedrig für ein wachsendes Unternehmen, weil zukünftiges Potenzial und Markenwert nicht enthalten sind."
+        },
+        {
+          "option": 2,
+          "name": "Umsatz-Multiplikator",
+          "description": "Der Preis basiert auf einer Formel: Jahresumsatz mal vereinbarter Faktor (z.B. 2× oder 3×). Das kann die Dynamik abbilden. Nachteil: Umsatz bedeutet nicht automatisch Gewinn und kann schnell sinken."
+        },
+        {
+          "option": 3,
+          "name": "Shotgun-Klausel",
+          "description": "Ein Partner nennt einen Preis für das ganze Unternehmen. Der andere muss entscheiden: zu diesem Preis kaufen oder verkaufen. Das zwingt zu einem fairen Preis. Es funktioniert am besten mit zwei Partnern und wird schwieriger bei drei oder mehr."
+        }
+      ]
+    }
+  }
+}

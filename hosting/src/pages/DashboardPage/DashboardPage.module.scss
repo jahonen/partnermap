@@ -1,0 +1,365 @@
+.page {
+  padding: 24px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.h1 {
+  margin: 0;
+  font-weight: 500;
+}
+
+.note {
+  margin-top: 12px;
+  color: rgba(44, 53, 57, 0.85);
+}
+
+.error {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(232, 98, 52, 0.4);
+  background: rgba(232, 98, 52, 0.12);
+  color: var(--color-graphite);
+  font-size: 12px;
+}
+
+.card {
+  margin-top: 16px;
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 14px;
+}
+
+.stageBanner {
+  margin-top: 16px;
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 14px;
+}
+
+.stageLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.stageLabel {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.7);
+}
+
+.stageValue {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.stageHelp {
+  color: rgba(44, 53, 57, 0.8);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.stageMiddle {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checklistTitle {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+.checklist {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+
+.checkItemGood {
+  font-family: var(--font-secondary);
+  font-size: 13px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  background: rgba(74, 95, 115, 0.06);
+}
+
+.checkItemBad {
+  font-family: var(--font-secondary);
+  font-size: 13px;
+  padding: 8px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(232, 98, 52, 0.35);
+  background: rgba(232, 98, 52, 0.08);
+}
+
+.stageRight {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ctaCard {
+  width: 100%;
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ctaTitle {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+}
+
+.ctaHelp {
+  font-size: 13px;
+  color: rgba(44, 53, 57, 0.8);
+  line-height: 1.5;
+}
+
+.blockedReasons {
+  border: 1px solid rgba(232, 98, 52, 0.35);
+  background: rgba(232, 98, 52, 0.08);
+  border-radius: 14px;
+  padding: 10px 12px;
+}
+
+.blockedTitle {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.blockedItem {
+  margin-top: 6px;
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.85);
+}
+
+.ctaNotice {
+  margin-top: 10px;
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.78);
+}
+
+.dangerZone {
+  margin-top: 14px;
+  border-top: 1px solid rgba(44, 53, 57, 0.1);
+  padding-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dangerTitle {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.85);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 0;
+}
+
+.label {
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.7);
+}
+
+.value {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+.valueMono {
+  font-family: var(--font-mono);
+  font-weight: 600;
+}
+
+.actions {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.primaryButton {
+  height: 44px;
+  border-radius: 12px;
+  border: none;
+  background: var(--color-signal-orange);
+  color: #ffffff;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.secondaryButton {
+  height: 44px;
+  border-radius: 12px;
+  border: 1px solid rgba(44, 53, 57, 0.18);
+  background: #ffffff;
+  color: var(--color-graphite);
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0 14px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.linkButton {
+  margin-top: 16px;
+  border: none;
+  background: transparent;
+  font-family: var(--font-secondary);
+  font-weight: 500;
+  color: rgba(44, 53, 57, 0.9);
+  cursor: pointer;
+  padding: 0;
+}
+
+.inviteCard {
+  margin-top: 14px;
+  border: 1px solid rgba(44, 53, 57, 0.12);
+  border-radius: 14px;
+  background: #ffffff;
+  padding: 14px;
+}
+
+.inviteTitle {
+  font-family: var(--font-secondary);
+  font-weight: 600;
+}
+
+.inviteRow {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inviteLink {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.85);
+  word-break: break-all;
+}
+
+.inviteForm {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.inviteLabel {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: var(--font-secondary);
+  font-size: 13px;
+  color: rgba(44, 53, 57, 0.9);
+  flex: 1;
+  min-width: 220px;
+}
+
+.inviteInput {
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(44, 53, 57, 0.18);
+  background: #ffffff;
+  color: var(--color-graphite);
+}
+
+.inviteInput:focus {
+  outline: 2px solid rgba(74, 95, 115, 0.35);
+  outline-offset: 1px;
+}
+
+.inviteList {
+  margin-top: 14px;
+  border-top: 1px solid rgba(44, 53, 57, 0.1);
+  padding-top: 12px;
+}
+
+.inviteListHeader {
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  gap: 12px;
+  font-family: var(--font-secondary);
+  font-size: 12px;
+  color: rgba(44, 53, 57, 0.7);
+}
+
+.inviteListRow {
+  margin-top: 8px;
+  display: grid;
+  grid-template-columns: 1fr 160px;
+  gap: 12px;
+  font-family: var(--font-secondary);
+  font-size: 13px;
+  color: rgba(44, 53, 57, 0.9);
+}
+
+.inviteListColEmail {
+  word-break: break-word;
+}
+
+.inviteListColStatus {
+  font-weight: 600;
+}
+
+.cancelInviteButton {
+  margin-left: 10px;
+  height: 30px;
+  padding: 0 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(44, 53, 57, 0.18);
+  background: #ffffff;
+  color: rgba(44, 53, 57, 0.9);
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancelInviteButton:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+@media (max-width: 980px) {
+  .stageBanner {
+    grid-template-columns: 1fr;
+  }
+
+  .stageRight {
+    justify-content: flex-start;
+  }
+}

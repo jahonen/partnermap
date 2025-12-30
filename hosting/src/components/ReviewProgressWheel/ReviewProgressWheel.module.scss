@@ -1,0 +1,29 @@
+.shell {
+  width: 220px;
+  height: 220px;
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.slice {
+  fill: rgba(44, 53, 57, 0.08);
+}
+
+.sliceCompleted {
+  fill: rgba(232, 98, 52, 0.22);
+}
+
+.slice[role='button'],
+.sliceCompleted[role='button'] {
+  cursor: pointer;
+}
+
+.slice[role='button']:focus,
+.sliceCompleted[role='button']:focus {
+  outline: none;
+  filter: brightness(0.97);
+}

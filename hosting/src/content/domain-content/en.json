@@ -1,0 +1,582 @@
+{
+  "language": "en",
+  "frontPage": {
+    "h1": "Don't Let Partnership Conflict Kill Your Startup",
+    "lead": "Free alignment mapping for co-founders. Eight critical domains. One honest conversation. Before lawyers get involved.",
+    "primaryCta": "Start Free Mapping",
+    "secondaryPrefix": "Have an invite code? Go to",
+    "secondaryLinkText": "Register",
+    "secondarySuffix": ".",
+    "disclaimer": "Partnership Mapping provides organisational guidance, not legal advice. This tool reflects alignment preferences and should be reviewed by qualified legal counsel before creating binding agreements. Always consult a solicitor familiar with your jurisdiction.",
+    "hero": {
+      "headline": "Don't Let Partnership Conflict Kill Your Startup",
+      "subheadline": "Free alignment mapping for co-founders. Eight critical domains. One honest conversation. Before lawyers get involved.",
+      "supporting": "Harvard Business School research shows 65% of high-potential startups fail due to co-founder conflict. Most founding teams never discuss the fundamentals—until it's too late. Partnership Mapping helps you align on what matters before you build.",
+      "cta": "Start Free Mapping"
+    },
+    "problem": {
+      "headline": "You're Building on Unstable Ground",
+      "body": [
+        "The best time in your business is before you start building—when it's all blue skies and big dreams. As soon as the rubber meets the road, you're in for conflict. The problem isn't disagreement itself. It's that you've never explicitly aligned on:",
+        "10% of co-founders end their relationship within a year. An additional 45% break up within four years. Up to 43% of founders ultimately buy out their co-founder due to interpersonal rifts and power struggles.",
+        "The tragedy? Most of these failures were preventable. The conflicts that destroy partnerships don't emerge from nowhere—they grow from unspoken assumptions made in those early, optimistic days."
+      ],
+      "bullets": [
+        "Who owns what, and why",
+        "How money flows in and out",
+        "Who decides what, when",
+        "What happens when someone wants out"
+      ]
+    },
+    "cost": {
+      "headline": "What Partnership Conflict Actually Costs",
+      "body": [
+        "It's not just about hurt feelings. Venture capitalists scrutinise the dynamic between co-founders just as much as a startup's idea. A business plan and customer base can change, but a founding team doesn't.",
+        "When a co-founder leaves early, it reduces the startup's success odds by nearly two-thirds. Even amicable splits are painful. The recovery is slow. The damage is real.",
+        "The root cause? Most founders unfortunately don't have the awareness or openness to take care of their partnership once they start experiencing tension. They must learn how to embrace conflicts and disagreements as a source for brainstorming and collaborative thinking."
+      ],
+      "bulletsHeadline": "When partnerships fail:",
+      "bullets": [
+        "Product development stops during conflict",
+        "Investor confidence evaporates",
+        "Team morale collapses",
+        "Legal fees multiply",
+        "Market momentum dies"
+      ]
+    },
+    "solution": {
+      "headline": "Align Before You Sign",
+      "body": "Partnership Mapping is a free facilitation tool that guides co-founders through structured alignment across eight critical operational domains. No lawyers required. No complex jargon. Just honest answers.",
+      "steps": [
+        {
+          "title": "1. Individual Assessment (15 minutes)",
+          "body": "Each co-founder privately answers questions across eight domains—from equity ownership to exit mechanisms. You'll see three proven approaches for each domain and select which ones you'd support."
+        },
+        {
+          "title": "2. Conflict Identification (Automatic)",
+          "body": "The system shows you exactly where you align and where you don't. No guessing. No avoiding. Just clarity."
+        },
+        {
+          "title": "3. Facilitated Resolution (Your Timeline)",
+          "body": "One partner drives a review session. You discuss gaps, add comments, and negotiate until everyone approves. The tool tracks progress and keeps everyone accountable."
+        },
+        {
+          "title": "4. Blueprint Delivery (Instant)",
+          "body": "Once aligned, you receive a comprehensive blueprint documenting your agreements. This becomes the foundation for your operating agreement—before you spend money on solicitors."
+        }
+      ]
+    },
+    "domains": {
+      "headline": "What You'll Align On",
+      "intro": "Partnership Mapping covers the eight domains that matter most for new partnerships:",
+      "items": [
+        {
+          "title": "1. Equity Ownership (0°)",
+          "body": "Who owns what percentage, and why? Equal split, weighted by capital, or weighted by role?"
+        },
+        {
+          "title": "2. Capital Contribution (45°)",
+          "body": "How do future investments work? Equal requirements, initial credit, or sweat equity conversion?"
+        },
+        {
+          "title": "3. Time/Effort Expectation (90°)",
+          "body": "What's everyone committing? Equal hours, asymmetric roles, or outcome-based?"
+        },
+        {
+          "title": "4. Compensation Structure (135°)",
+          "body": "How do partners get paid? No salary, market rate, or founder salary?"
+        },
+        {
+          "title": "5. Profit Distribution (180°)",
+          "body": "How do profits flow? Proportional to equity, equal regardless, or tiered?"
+        },
+        {
+          "title": "6. Decision Authority (225°)",
+          "body": "Who decides what? Unanimous consensus, delegated domains, or managing director model?"
+        },
+        {
+          "title": "7. Voting Control (270°)",
+          "body": "How much does each vote count? Proportional, equal, or domain-specific?"
+        },
+        {
+          "title": "8. Exit Mechanism (315°)",
+          "body": "What happens when someone leaves? Book value, revenue multiple, or shotgun clause?"
+        }
+      ],
+      "closing": "Operating agreements formalise the business relationship, reduce the risk of misunderstandings, clarify responsibilities, and provide built-in processes for resolving disagreements. But they're expensive to create—and worthless if you haven't aligned first."
+    },
+    "benefits": {
+      "headline": "Why Map Before You Sign",
+      "items": [
+        {
+          "title": "Prevent the 65%",
+          "body": "When everyone is aligned and has the same story in their minds, it makes for quicker decision-making and better execution because those decisions are being made by people who believe they're working towards something meaningful."
+        },
+        {
+          "title": "Save Thousands in Legal Fees",
+          "body": "Solicitors draft better agreements when you arrive with clear answers. Partnership Mapping gives you those answers—for free."
+        },
+        {
+          "title": "Build on Solid Ground",
+          "body": "Having clearly defined roles prevents misunderstandings and ensures each partner is aware of their obligations. No surprises. No assumptions. Just documentation."
+        },
+        {
+          "title": "Attract Better Investment",
+          "body": "Without a solid partnership agreement, your business could raise eyebrows amongst investors, lenders, and potential clients. Having an agreement shows stakeholders that your business is operating with a clear understanding of responsibilities, liabilities, and expectations."
+        },
+        {
+          "title": "Sleep Better",
+          "body": "You'll know exactly what happens if someone wants out, gets ill, or just stops showing up. Addressing unforeseen scenarios ensures the business can continue to operate even in tragic events."
+        }
+      ]
+    },
+    "different": {
+      "headline": "Not Another Template",
+      "intro": "Most partnership tools give you a document to fill in. Partnership Mapping gives you a process to align first—then document.",
+      "items": [
+        {
+          "title": "Individual Privacy",
+          "body": "Each co-founder responds privately. No pressure. No groupthink. Just honest answers about what you'd actually support."
+        },
+        {
+          "title": "Visual Clarity",
+          "body": "See exactly where alignment exists and where it doesn't. Colour-coded conflict matrices show consensus instantly."
+        },
+        {
+          "title": "Facilitated Discussion",
+          "body": "Built-in commentary system lets you discuss each domain. Track who said what, when. Keep the conversation productive."
+        },
+        {
+          "title": "Approval Gates",
+          "body": "No one can force a configuration. Every co-founder must explicitly approve before the blueprint is finalised. Everyone's voice matters."
+        },
+        {
+          "title": "Multi-Language",
+          "body": "Available in English, Finnish, and Greek. More languages coming."
+        }
+      ]
+    },
+    "who": {
+      "headline": "Built for Early-Stage Founders",
+      "intro": "Partnership Mapping is designed for:",
+      "bullets": [
+        "Co-founders forming new companies",
+        "Existing partnerships formalising their relationship",
+        "Teams transitioning from side project to serious business",
+        "Friends or family starting a business together",
+        "Anyone who needs alignment before spending money on solicitors"
+      ],
+      "notReady": "Not ready to incorporate? That's fine. Use Partnership Mapping to test whether you should even form a company together.",
+      "already": "Already incorporated? Even better. Use this to document what you probably never discussed properly."
+    },
+    "trust": {
+      "headline": "Your Data. Your Control.",
+      "items": [
+        { "title": "Free Forever", "body": "No credit card. No trial. No catch." },
+        { "title": "Private by Default", "body": "Individual responses stay private until you choose to share." },
+        { "title": "You Own Everything", "body": "Download your blueprint. Delete your data anytime." },
+        { "title": "No Sales Pressure", "body": "We're not selling you legal services or consulting." },
+        { "title": "European Privacy", "body": "GDPR compliant. Data hosted in EU." }
+      ]
+    },
+    "cta": {
+      "headline": "Start Aligning Today",
+      "subheadline": "The conversation you're avoiding is the one that will save your startup.",
+      "nextHeadline": "What happens next:",
+      "next": [
+        "Create your company workspace (30 seconds)",
+        "Invite your co-founders via email",
+        "Each person completes their mapping (15 minutes)",
+        "Review results and discuss gaps",
+        "Approve final configuration",
+        "Receive your partnership blueprint"
+      ],
+      "button": "Start Free Mapping"
+    },
+    "socialProof": {
+      "headline": "Join Founders Who Aligned First",
+      "quotes": [
+        {
+          "quote": "We thought we were aligned until we saw the results. Turns out my co-founder expected equal profit share whilst I assumed it would be proportional to ownership. We sorted it in one hour instead of discovering it eighteen months in.",
+          "attribution": "Anonymous Founder, UK"
+        },
+        {
+          "quote": "Partnership Mapping showed us we weren't ready to be partners. Saved us both a lot of pain.",
+          "attribution": "Anonymous Founder, Finland"
+        },
+        {
+          "quote": "Our solicitor said it was the best-prepared founding team she'd ever worked with. This tool paid for itself a hundred times over in reduced legal fees.",
+          "attribution": "Anonymous Founder, Greece"
+        }
+      ]
+    },
+    "faq": {
+      "headline": "FAQ",
+      "items": [
+        {
+          "q": "Is this really free?",
+          "a": "Yes. No credit card. No trial period. No upsells. We built this because we wish it had existed when we started our company."
+        },
+        {
+          "q": "How long does it take?",
+          "a": "15 minutes per person for individual mapping. 1-2 hours for the review discussion. Much faster than months of hidden resentment."
+        },
+        {
+          "q": "Can we change our answers?",
+          "a": "Yes, until your team moves to the review stage. After that, you're committing to a configuration."
+        },
+        {
+          "q": "What if we can't agree?",
+          "a": "Then you've learned something critical before signing contracts, hiring people, or raising money. Better now than later."
+        },
+        {
+          "q": "Is this legally binding?",
+          "a": "No. This is a facilitation tool, not legal advice. Take your blueprint to a solicitor to create proper binding agreements."
+        },
+        {
+          "q": "Do you sell our data?",
+          "a": "Never. We don't even want your data. We're not in the data business."
+        },
+        {
+          "q": "What about more than two co-founders?",
+          "a": "Works for any number. The tool handles multiple perspectives automatically."
+        },
+        {
+          "q": "Can we do this for an existing company?",
+          "a": "Absolutely. Many teams use this to document agreements they made informally years ago."
+        }
+      ]
+    },
+    "about": {
+      "headline": "About Outkomia",
+      "sections": [
+        {
+          "title": "Who We Are",
+          "body": "Outkomia is an agency that matches outcomes to opportunity. We specialise in helping organisations—from sports federations to emerging companies—understand what they're actually trying to achieve, then connect those outcomes to the resources that make them possible. Partnership Mapping grew from our own experience. When we structured our agency partnerships, we discovered that existing tools focused on documents, not alignment. We needed something that forced honest conversations before contracts. So we built it. Then we made it free."
+        },
+        {
+          "title": "Our Philosophy",
+          "body": "Outcomes before outputs. Clarity before contracts. Alignment before agreements. When partnerships work, it's because everyone knows what they're building, why they're building it, and what happens when things change. Partnership Mapping helps you get there."
+        }
+      ]
+    },
+    "aboutCompany": {
+      "headline": "About NxtStride Finland Oy",
+      "sections": [
+        {
+          "title": "The Company Behind the Tool",
+          "body": "NxtStride Finland Oy operates a sports technology ecosystem, but we started where you are now—as co-founders who needed to align. We've built TitleStream, Sports Veritas, and Outkomia Agency. We've navigated equity splits, compensation models, decision authority, and exit mechanisms. Partnership Mapping reflects what we wish we'd had when we started: a structured way to surface assumptions, test alignment, and document agreements before they became problems."
+        },
+        {
+          "title": "Why We Made This Free",
+          "body": "We're a small company. We know what it's like to watch every euro. We know legal fees feel impossible when you're just starting. We know how many partnerships fail because founders couldn't afford proper advice early. This tool won't replace solicitors. But it will make you better prepared when you get there."
+        },
+        {
+          "title": "Our Commitment",
+          "body": "Partnership Mapping will remain free. We won't sell your data. We won't upsell you. We won't pitch you consulting services. We just want more small companies to succeed. Because when founders align early, everyone wins."
+        }
+      ]
+    },
+    "finalCta": {
+      "headline": "Don't Be Part of the 65%",
+      "body": "65% of high-potential startups fail due to conflict amongst co-founders. You can't eliminate conflict. But you can align before it destroys what you're building.",
+      "button": "Start Free Mapping",
+      "footerLegal": "Partnership Mapping provides organisational guidance, not legal advice. This tool reflects alignment preferences and should be reviewed by qualified legal counsel before creating binding agreements. Always consult a solicitor familiar with your jurisdiction."
+    }
+  },
+  "ui": {
+    "languageLabel": "Language",
+    "login": "Login",
+    "loading": "Loading…",
+    "dashboardTitle": "Dashboard",
+    "stageLabel": "Stage",
+    "stage_assessment": "Assessment",
+    "stage_review": "Review",
+    "stage_finalize": "Finalize",
+    "stage_closed": "Closed",
+    "stageHelpAssessment": "Complete assessments and resolve invites before review can start.",
+    "stageHelpReview": "Review votes and select a final blueprint option per domain.",
+    "stageHelpFinalize": "Partners accept or reject the blueprint. Admin can close when everyone accepted.",
+    "stageHelpClosed": "Mapping is closed and read-only.",
+    "readinessTitle": "Readiness",
+    "readinessInvites": "Invites resolved",
+    "readinessAssessments": "All assessments complete",
+    "readinessBlueprint": "Blueprint selected (8/8)",
+    "readinessAcceptance": "All partners accepted",
+    "adminControlsTitle": "Admin: Stage controls",
+    "blockedTitle": "Blocked because:",
+    "dangerZoneTitle": "Danger zone",
+    "adminStartOver": "Delete mapping data (start over)",
+    "adminBlockedInvites": "Pending invites must be accepted or cancelled",
+    "adminBlockedAssessments": "All participants must complete assessments",
+    "adminBlockedBlueprint": "Select 1 option per domain to continue",
+    "adminBlockedAcceptance": "Waiting for all partners to accept the blueprint",
+    "adminStartReview": "Start review (lock assessments)",
+    "adminStartReviewHelp": "Locks assessment and moves to blueprint selection.",
+    "adminStartFinalize": "Publish blueprint (start acceptance)",
+    "adminStartFinalizeHelp": "Publishes final blueprint and asks partners to accept or reject.",
+    "adminCloseMapping": "Close mapping (send confirmation email)",
+    "adminCloseMappingHelp": "Locks the mapping and sends the final confirmation email to all partners.",
+    "adminResendClosedEmail": "Re-send confirmation email",
+    "adminResendClosedEmailHelp": "Re-sends the closed mapping email to all partners.",
+    "yourNextStepTitle": "Your next step",
+    "participantDoneWaiting": "You are done — waiting for others",
+    "participantDoneWaitingHelp": "The admin will start the review once everyone is ready.",
+    "participantContinueAssessment": "Continue assessment",
+    "participantContinueAssessmentHelp": "Complete all 8 domains.",
+    "participantReviewInProgress": "Review in progress",
+    "participantReviewInProgressHelp": "The admin is selecting the final blueprint.",
+    "participantFinalizeCta": "Review and accept/reject blueprint",
+    "participantFinalizeHelp": "You can change your decision until the mapping is closed.",
+    "participantViewClosed": "View final blueprint",
+    "participantViewClosedHelp": "The mapping is closed.",
+    "navAssessment": "Assessment",
+    "navReview": "Review",
+    "navFinalize": "Finalize",
+    "inviteTeammatesTitle": "Invite teammates",
+    "participantsTitle": "Participants",
+    "participantsEmailHeader": "Email",
+    "participantsStatusHeader": "Status",
+    "copyInviteLink": "Copy invite link",
+    "emailLabel": "Email",
+    "sendInvite": "Send invite",
+    "cancelInvite": "Cancel",
+    "sending": "Sending…",
+    "reconcileInvites": "Reconcile invites",
+    "inviteMismatchNote": "Some invite records are still pending even though the participant has already joined. You can reconcile them.",
+    "invitesLocked": "Invites are locked once review begins.",
+    "companyLabel": "Company",
+    "inviteCodeLabel": "Invite code",
+    "yourRoleLabel": "Your role",
+    "startAssessment": "Start / Continue assessment",
+    "reviewSummary": "Review summary",
+    "finalize": "Finalize",
+    "signOut": "Sign out",
+    "assessmentTitle": "Assessment",
+    "assessmentNote": "Select a domain to review common solution patterns and trade-offs.",
+    "completeAssessment": "Complete assessment",
+    "domainsLabel": "Domains",
+    "loadingSavedSelections": "Loading saved selections…",
+    "failedToLoadSavedSelections": "Failed to load saved selections",
+    "failedToSave": "Failed to save",
+    "saving": "Saving…",
+    "reviewTitle": "Review",
+    "reviewDomainProgressLabel": "Domain",
+    "reviewAdminOnlyNote": "Only the admin can make selections. You can view votes and add comments.",
+    "reviewOptionsTitle": "Options",
+    "closeReview": "Close review",
+    "previousDomain": "Previous",
+    "nextDomain": "Next",
+    "finalizeReview": "Finalize",
+    "finalizeBlocked": "Select exactly one option in all 8 domains",
+    "adminOnly": "Admin only",
+    "votesLabel": "Votes",
+    "deleteComment": "Delete",
+    "failedToDeleteComment": "Failed to delete comment",
+    "reviewNote": "Review your saved selections, compare with others, and add comments.",
+    "failedToLoadResponses": "Failed to load responses",
+    "loadingCompanyView": "Loading company view…",
+    "failedToLoadCompanyResponses": "Failed to load company responses",
+    "failedToLoadParticipants": "Failed to load participants",
+    "optionLabel": "Option",
+    "loadingComments": "Loading comments…",
+    "failedToLoadComments": "Failed to load comments",
+    "failedToAddComment": "Failed to add comment",
+    "notSelected": "Not selected",
+    "conflictsTitle": "Conflicts",
+    "noSelectionsYet": "No selections yet",
+    "commentsTitle": "Comments",
+    "commentPlaceholder": "Add a comment (max 500 chars)",
+    "posting": "Posting…",
+    "postComment": "Post comment",
+    "noCommentsYet": "No comments yet.",
+    "finalTitle": "Final",
+    "finalNote": "Export your current selections as a simple blueprint file.",
+    "approvalsTitle": "Approvals",
+    "approvalsNote": "Each participant can approve when they are comfortable with the current blueprint.",
+    "approve": "Approve",
+    "unapprove": "Unapprove",
+    "approved": "Approved",
+    "notApproved": "Not approved",
+    "downloadBlueprint": "Download blueprint (JSON)",
+    "failedToLoadCompany": "Failed to load company context"
+  },
+  "domains": {
+    "equity_ownership": {
+      "order": 1,
+      "angleDeg": 0,
+      "name": "Equity Ownership",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Equal Split",
+          "description": "Every partner owns the same percentage. It does not matter how much money someone invested or how many hours they worked. This is simple and can feel fair because everyone is treated as equally important. The risk is that if one person later puts in much more time or takes more financial risk, they may feel it is unfair."
+        },
+        {
+          "option": 2,
+          "name": "Weighted by Capital",
+          "description": "Ownership is based on how much money each partner invests. If someone puts in more cash, they get a larger share. This protects people who take more financial risk. The downside is that it can undervalue the partner who brings time, skills, and experience instead of cash."
+        },
+        {
+          "option": 3,
+          "name": "Weighted by Role",
+          "description": "Ownership is based on how important each person’s role and skills are for the business. People doing the most critical work or bringing rare expertise get a larger share. This rewards contribution quality, not just money or hours. The hard part is agreeing what roles matter most, and roles can change over time."
+        }
+      ]
+    },
+    "capital_contribution": {
+      "order": 2,
+      "angleDeg": 45,
+      "name": "Capital Contribution",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Equal Ongoing Requirements",
+          "description": "Whenever the business needs more money, everyone must invest the same amount. For example, if the company needs €30,000 and there are three partners, each pays €10,000. This keeps financial power balanced. The risk is that not everyone will have the same access to cash when needed."
+        },
+        {
+          "option": 2,
+          "name": "Initial Investment Credited Forever",
+          "description": "Money invested at the start always counts as a permanent credit. If you put in €50,000 at launch, that credit stays when you later compare ownership or profit shares. This protects early risk-takers. The downside is that it may not match who keeps funding the business later."
+        },
+        {
+          "option": 3,
+          "name": "Sweat Equity Conversion",
+          "description": "Time and work can be treated like an investment, not only cash. Work hours get a euro value and are counted as contributions. This helps partners who have skills but not money. The hard part is agreeing the value of an hour and tracking time in a consistent way."
+        }
+      ]
+    },
+    "time_effort": {
+      "order": 3,
+      "angleDeg": 90,
+      "name": "Time/Effort Expectation",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Equal Full-Time Commitment",
+          "description": "Every partner agrees to work the same number of hours per week, often 40+ hours. This makes the workload feel balanced and reduces the chance that someone feels used. The downside is that life changes, and equal hours do not always mean equal impact."
+        },
+        {
+          "option": 2,
+          "name": "Asymmetric Roles with Defined Percentages",
+          "description": "Partners agree that different roles need different time levels. One person might do 50% time while another does 100%. Expectations are written clearly as percentages. This adds flexibility, but it can create conflict if people disagree about whether someone is meeting their commitment."
+        },
+        {
+          "option": 3,
+          "name": "Outcome-Based, No Time Tracking",
+          "description": "Partners focus on results, not on hours. If your responsibilities are completed well, it does not matter when you work. This gives freedom and keeps attention on what matters. It needs clear goals and can fail if partners have different standards for what “good” looks like."
+        }
+      ]
+    },
+    "compensation_structure": {
+      "order": 4,
+      "angleDeg": 135,
+      "name": "Compensation Structure",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "No Salary, Profit Distribution Only",
+          "description": "Partners do not take a regular wage. Money is paid out only when the business makes profit, using an agreed split. This keeps more cash inside the business. The downside is that partners need savings or other income, which can favor partners with more personal money."
+        },
+        {
+          "option": 2,
+          "name": "Market-Rate Salary Plus Profit Share",
+          "description": "Each partner is paid a normal market salary for their job, like they would earn elsewhere. After that, any profits are shared separately. This helps partners pay bills, but many new businesses cannot afford market salaries and it reduces money available for growth."
+        },
+        {
+          "option": 3,
+          "name": "Founder Salary Below Market Plus Profit Share",
+          "description": "Partners take a lower salary (for example 50–70% of market rate) and later make up the difference through profit sharing. This balances personal needs and business cash. It requires short-term sacrifice and assumes profit will eventually arrive."
+        }
+      ]
+    },
+    "profit_distribution": {
+      "order": 5,
+      "angleDeg": 180,
+      "name": "Profit Distribution",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proportional to Equity",
+          "description": "Profits are shared based on ownership percentage. If you own 40%, you receive 40% of profits. This is simple and matches profit to ownership risk. The downside is that it may not reflect who is currently doing the most work."
+        },
+        {
+          "option": 2,
+          "name": "Equal Regardless of Equity",
+          "description": "Profits are split equally between partners, no matter who owns more shares. This can reward current effort and build unity. The downside is that it separates profit from ownership, which can feel unfair to someone who invested more money or took higher risk early on."
+        },
+        {
+          "option": 3,
+          "name": "Tiered: Salary First, Then Proportional Residual",
+          "description": "Partners first receive their agreed salaries. Then the remaining profit is split based on ownership percentages. This gives baseline income before profit sharing. The downside is extra complexity: you must define what counts as salary and manage two different formulas."
+        }
+      ]
+    },
+    "decision_authority": {
+      "order": 6,
+      "angleDeg": 225,
+      "name": "Decision Authority",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Unanimous for Material Decisions",
+          "description": "Big decisions require everyone to agree. Examples are large spending, hiring, strategy changes, or investments. This protects minority partners and increases buy-in. The downside is that disagreements can slow everything down and the business can get stuck."
+        },
+        {
+          "option": 2,
+          "name": "Delegated by Domain",
+          "description": "Each partner has final say in their own area of responsibility. This speeds up decisions and respects expertise. The risk is that boundaries can be unclear, and one person’s decision may impact another person’s work or budget."
+        },
+        {
+          "option": 3,
+          "name": "Managing Director Model with Final Say",
+          "description": "One partner has the final say when agreement cannot be reached. Others give input, but this person decides. This prevents deadlock and creates accountability. The downside is possible resentment if the leader ignores others or makes repeated poor decisions."
+        }
+      ]
+    },
+    "voting_control": {
+      "order": 7,
+      "angleDeg": 270,
+      "name": "Voting Control",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Proportional to Equity",
+          "description": "Voting power matches ownership percentage. If you own 45%, your vote counts as 45%. This aligns control with financial risk. The downside is that smaller owners may feel powerless, especially on decisions that affect daily work."
+        },
+        {
+          "option": 2,
+          "name": "Equal Regardless of Equity",
+          "description": "Each partner gets one vote with equal weight, no matter ownership. This keeps power balanced and prevents one person from dominating. The downside is that it can feel unfair if one person owns much more of the company."
+        },
+        {
+          "option": 3,
+          "name": "Domain-Specific Expert Decides",
+          "description": "For a given topic, the partner with the most expertise has the deciding vote. This can speed up decisions and use the right knowledge. The downside is defining clear boundaries and making sure experts still listen to others."
+        }
+      ]
+    },
+    "exit_mechanism": {
+      "order": 8,
+      "angleDeg": 315,
+      "name": "Exit Mechanism",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Book Value Buyout",
+          "description": "When someone leaves, they sell their shares based on the company’s book value (assets minus debts). This uses real numbers and is easy to explain. The downside is that book value often undervalues a growing business because it ignores future potential and brand value."
+        },
+        {
+          "option": 2,
+          "name": "Revenue Multiple Formula",
+          "description": "The exit price is based on a simple formula: annual revenue times an agreed multiple (for example 2× or 3×). This can reflect business momentum. The downside is that revenue does not always mean profit, and revenue can drop quickly."
+        },
+        {
+          "option": 3,
+          "name": "Shotgun Clause",
+          "description": "One partner names a price for the whole company. The other must choose to buy or sell at that price. This pushes the price to be fair. It works best with two partners and can be harder to apply when there are three or more partners."
+        }
+      ]
+    }
+  }
+}

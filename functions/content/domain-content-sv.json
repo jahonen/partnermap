@@ -1,0 +1,238 @@
+{
+  "language": "sv",
+  "frontPage": {
+    "h1": "Skapa samsyn mellan grundare innan ni skriver avtal.",
+    "lead": "Ett enkelt, strukturerat sätt för startup-grundare att prata om ägande, roller, pengar, beslut och exit. Målet är gemensam riktning innan formella förhandlingar och juridiska dokument.",
+    "primaryCta": "Fortsätt",
+    "secondaryPrefix": "Har du en inbjudningskod? Gå till",
+    "secondaryLinkText": "Registrera",
+    "secondarySuffix": ".",
+    "disclaimer": "Det här verktyget stödjer strukturerade samtal. Det är inte juridisk rådgivning och inte ett verktyg för att skriva avtal."
+  },
+  "ui": {
+    "languageLabel": "Språk",
+    "login": "Logga in",
+    "loading": "Laddar…",
+    "dashboardTitle": "Översikt",
+    "companyLabel": "Företag",
+    "inviteCodeLabel": "Inbjudningskod",
+    "yourRoleLabel": "Din roll",
+    "startAssessment": "Starta / fortsätt kartläggning",
+    "reviewSummary": "Se sammanfattning",
+    "finalize": "Slutför",
+    "signOut": "Logga ut",
+    "assessmentTitle": "Kartläggning",
+    "assessmentNote": "Välj ett område och se vanliga alternativ och avvägningar.",
+    "domainsLabel": "Områden",
+    "loadingSavedSelections": "Laddar sparade val…",
+    "failedToLoadSavedSelections": "Kunde inte ladda sparade val",
+    "failedToSave": "Kunde inte spara",
+    "saving": "Sparar…",
+    "reviewTitle": "Granskning",
+    "reviewNote": "Se dina sparade val, jämför med andra och lägg till kommentarer.",
+    "failedToLoadResponses": "Kunde inte ladda svar",
+    "loadingCompanyView": "Laddar företagsvy…",
+    "failedToLoadCompanyResponses": "Kunde inte ladda företagets svar",
+    "failedToLoadParticipants": "Kunde inte ladda deltagare",
+    "optionLabel": "Alternativ",
+    "notSelected": "Inte valt",
+    "conflictsTitle": "Skillnader",
+    "noSelectionsYet": "Inga val ännu",
+    "commentsTitle": "Kommentarer",
+    "loadingComments": "Laddar kommentarer…",
+    "failedToLoadComments": "Kunde inte ladda kommentarer",
+    "failedToAddComment": "Kunde inte lägga till kommentar",
+    "commentPlaceholder": "Lägg till en kommentar (max 500 tecken)",
+    "posting": "Publicerar…",
+    "postComment": "Publicera kommentar",
+    "noCommentsYet": "Inga kommentarer ännu.",
+    "finalTitle": "Slut",
+    "finalNote": "Exportera dina val som en enkel blueprint-fil.",
+    "approvalsTitle": "Godkännanden",
+    "approvalsNote": "Varje deltagare kan godkänna när de känner sig nöjda med den aktuella versionen.",
+    "approve": "Godkänn",
+    "unapprove": "Ångra godkännande",
+    "approved": "Godkänd",
+    "notApproved": "Inte godkänd",
+    "downloadBlueprint": "Ladda ner blueprint (JSON)",
+    "failedToLoadCompany": "Kunde inte ladda företagsinformation"
+  },
+  "domains": {
+    "equity_ownership": {
+      "order": 1,
+      "angleDeg": 0,
+      "name": "Ägarandelar",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Lika fördelning",
+          "description": "Alla delägare äger samma procent. Det spelar ingen roll vem som investerade mer pengar eller jobbade fler timmar. Det är enkelt och kan kännas rättvist. Risken är att om en person senare gör mycket mer jobb eller tar större ekonomisk risk kan det kännas orättvist."
+        },
+        {
+          "option": 2,
+          "name": "Viktat efter kapital",
+          "description": "Ägandet följer hur mycket pengar varje person investerar. Den som satsar mer kontanter får en större andel. Det skyddar den som tar större ekonomisk risk. Nackdelen är att det kan undervärdera någon som bidrar med tid, kunskap och erfarenhet istället för pengar."
+        },
+        {
+          "option": 3,
+          "name": "Viktat efter roll",
+          "description": "Ägandet baseras på hur viktiga personens roll och färdigheter är för företaget. Den som gör mest kritiskt arbete eller har ovanlig kompetens får större andel. Det belönar kvalitet i bidraget. Svårigheten är att komma överens om vad som är viktigast, och roller kan ändras över tid."
+        }
+      ]
+    },
+    "capital_contribution": {
+      "order": 2,
+      "angleDeg": 45,
+      "name": "Kapitalinsats",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Lika löpande krav",
+          "description": "När företaget behöver mer pengar måste alla investera lika mycket. Om företaget behöver 30 000 € och ni är tre, betalar alla 10 000 €. Det håller makten jämn. Risken är att alla inte alltid har samma tillgång till pengar."
+        },
+        {
+          "option": 2,
+          "name": "Startinsats räknas alltid",
+          "description": "Pengar som investeras i början räknas som en permanent kredit. Om du satsar 50 000 € vid start, tas det alltid med när man jämför ägande eller vinstdelning. Det skyddar den som tog risk tidigt. Nackdelen är att det inte alltid speglar vem som fortsätter finansiera företaget senare."
+        },
+        {
+          "option": 3,
+          "name": "Arbetsinsats som kapital",
+          "description": "Tid och arbete kan räknas som en investering, inte bara pengar. Arbetstimmar får ett värde i euro och räknas som kapitalinsats. Det hjälper den som har kompetens men inte pengar. Svårast är att bestämma timvärde och följa upp tiden på ett bra sätt."
+        }
+      ]
+    },
+    "time_effort": {
+      "order": 3,
+      "angleDeg": 90,
+      "name": "Tid och arbetsinsats",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Lika heltid",
+          "description": "Alla partners lovar att arbeta lika många timmar per vecka, ofta 40+ timmar. Det kan kännas rättvist och minskar risken att någon känner sig utnyttjad. Nackdelen är att livet förändras, och lika timmar betyder inte alltid lika värde."
+        },
+        {
+          "option": 2,
+          "name": "Olika roller med procent",
+          "description": "Ni bestämmer att olika roller kräver olika mycket tid. En person kan jobba 50% och en annan 100%. Förväntningarna skrivs tydligt som procent. Det ger flexibilitet, men kan skapa konflikt om ni inte är överens om någon uppfyller sin del."
+        },
+        {
+          "option": 3,
+          "name": "Resultatstyrt, inga timmar",
+          "description": "Ni bedöms på resultat, inte på timmar. Så länge dina uppgifter blir bra gjorda spelar det mindre roll när du jobbar. Det ger frihet och fokus på det som räknas. Det kräver tydliga mål och kan fungera dåligt om ni har olika syn på vad som är “klart och bra”."
+        }
+      ]
+    },
+    "compensation_structure": {
+      "order": 4,
+      "angleDeg": 135,
+      "name": "Lön och ersättning",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Ingen lön, bara vinst",
+          "description": "Partners tar ingen regelbunden lön. Pengar tas ut först när företaget gör vinst, enligt överenskommen fördelning. Det behåller mer pengar i företaget. Nackdelen är att partners behöver sparande eller annan inkomst, vilket kan gynna den som redan har pengar."
+        },
+        {
+          "option": 2,
+          "name": "Marknadslön + vinstandel",
+          "description": "Varje partner får en marknadslön för sin roll, ungefär som i ett annat företag. Sedan delas vinsten separat. Det hjälper med räkningar, men unga företag har ofta inte råd med marknadslöner och det minskar pengar för tillväxt."
+        },
+        {
+          "option": 3,
+          "name": "Lägre grundarlön + vinstandel",
+          "description": "Partners tar en lägre lön (t.ex. 50–70% av marknadslön) och får resten genom vinstdelning senare. Det balanserar privat ekonomi och företagets kassa. Det kräver att man kan avstå kortsiktig inkomst och att vinster kommer längre fram."
+        }
+      ]
+    },
+    "profit_distribution": {
+      "order": 5,
+      "angleDeg": 180,
+      "name": "Vinstdelning",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Efter ägarandel",
+          "description": "Vinsten delas efter ägarprocent. Om du äger 40% får du 40% av vinsten. Det är enkelt och kopplar vinst till ägarrisk. Nackdelen är att det inte alltid speglar vem som jobbar mest just nu."
+        },
+        {
+          "option": 2,
+          "name": "Lika oavsett ägande",
+          "description": "Vinsten delas lika mellan partners, oavsett vem som äger mest. Det kan belöna dagens insats och stärka teamkänslan. Nackdelen är att det skiljer vinst från ägande, vilket kan kännas orättvist för den som investerade mer eller tog större risk i början."
+        },
+        {
+          "option": 3,
+          "name": "Lön först, sedan ägarandel",
+          "description": "Först betalas överenskomna löner. Sedan delas det som är kvar efter ägarandel. Det ger en basinkomst innan vinsten delas. Nackdelen är mer komplexitet: ni måste definiera lön och hantera två olika modeller."
+        }
+      ]
+    },
+    "decision_authority": {
+      "order": 6,
+      "angleDeg": 225,
+      "name": "Beslutsmakt",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Enighet vid stora beslut",
+          "description": "Stora beslut kräver att alla säger ja. Exempel är stora inköp, anställningar, strategiändringar eller investeringar. Det skyddar minoriteter och ger gemensamt stöd. Nackdelen är att oenighet kan göra allt långsamt och stoppa företaget."
+        },
+        {
+          "option": 2,
+          "name": "Delegerat per område",
+          "description": "Varje partner bestämmer i sitt ansvarsområde. Det gör beslut snabbare och respekterar kompetens. Risken är att gränser blir otydliga och att en persons beslut påverkar andra."
+        },
+        {
+          "option": 3,
+          "name": "Ansvarig ledare",
+          "description": "En partner har sista ordet om ni inte kan enas. Andra ger input, men den personen fattar beslutet. Det undviker låsningar och ger tydligt ansvar. Nackdelen är att det kan skapa irritation om ledaren inte lyssnar eller gör dåliga val ofta."
+        }
+      ]
+    },
+    "voting_control": {
+      "order": 7,
+      "angleDeg": 270,
+      "name": "Rösträtt",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Efter ägarandel",
+          "description": "Rösträtt följer ägarprocent. Om du äger 45% väger din röst 45%. Det kopplar kontroll till ekonomisk risk. Nackdelen är att mindre ägare kan känna sig utan inflytande."
+        },
+        {
+          "option": 2,
+          "name": "En röst per partner",
+          "description": "Alla får en röst som väger lika mycket, oavsett ägande. Det håller makten balanserad. Nackdelen är att det kan kännas orättvist om en person äger mycket mer."
+        },
+        {
+          "option": 3,
+          "name": "Expert avgör i sitt område",
+          "description": "I ett visst ämne får den mest kunniga partnern utslagsröst. Det kan ge snabbare och bättre beslut. Utmaningen är att definiera områden tydligt och att experten fortfarande lyssnar på andra."
+        }
+      ]
+    },
+    "exit_mechanism": {
+      "order": 8,
+      "angleDeg": 315,
+      "name": "Utträde",
+      "solutions": [
+        {
+          "option": 1,
+          "name": "Utköp till bokfört värde",
+          "description": "När någon lämnar säljer de sin andel enligt bokfört värde (tillgångar minus skulder). Det bygger på riktiga siffror och är lätt att förstå. Nackdelen är att bokfört värde ofta är för lågt för ett växande företag eftersom framtida potential inte räknas."
+        },
+        {
+          "option": 2,
+          "name": "Omsättningsmultipel",
+          "description": "Priset räknas som årsomsättning gånger en överenskommen multipel (t.ex. 2× eller 3×). Det kan fånga företagets fart. Nackdelen är att omsättning inte alltid betyder vinst och kan ändras snabbt."
+        },
+        {
+          "option": 3,
+          "name": "Shotgun-klausul",
+          "description": "En partner sätter ett pris för hela företaget. Den andra måste välja att köpa eller sälja till samma pris. Det pressar fram ett rimligt pris. Det passar bäst med två partners och blir svårare med tre eller fler."
+        }
+      ]
+    }
+  }
+}

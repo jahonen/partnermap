@@ -1,0 +1,45 @@
+:root {
+  --color-graphite: #2c3539;
+  --color-steel-blue: #4a5f73;
+  --color-frost: #e8ecef;
+  --color-veritas-green: #0a8754;
+  --color-signal-orange: #e86234;
+  --color-neutral-sand: #c9b8a3;
+  --color-method-burgundy: #6b2d3e;
+
+  --font-primary: "IBM Plex Sans", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --font-secondary: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-primary);
+  color: var(--color-graphite);
+  background: var(--color-frost);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: var(--font-secondary);
+}
