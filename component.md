@@ -77,6 +77,16 @@
 - **Outputs**: Global footer
 - **Side effects**: None
 
+## CookieConsentBanner (`hosting/src/components/CookieConsentBanner/CookieConsentBanner.jsx`)
+
+### Interface
+
+- **Inputs**: None
+- **Outputs**: A cookie consent banner (Accept/Reject) when no choice has been saved
+- **Side effects**:
+  - Persists consent decision to `localStorage`
+  - Updates Google Analytics consent via `gtag('consent','update', ...)`
+
 ## LanguageProvider (`hosting/src/providers/LanguageProvider/LanguageProvider.jsx`)
 
 ### Interface
@@ -160,4 +170,10 @@
 - **Side effects**:
   - Dashboard admin actions call Cloud Functions workflow actions (e.g. `generateBlueprint` with `action=resendClosedEmail`)
   - Dashboard displays success/error feedback for admin actions
+
+### PrivacyPolicyPage
+
+- **Inputs**: None
+- **Outputs**: Privacy Policy content
+- **Side effects**: None
 

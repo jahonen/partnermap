@@ -53,3 +53,30 @@
 
 - **Used by**: `functions/`
 - **Purpose**: workflow actions and email sending
+
+## Google Analytics (GA4)
+
+- **Used by**: `hosting/`
+- **Purpose**: basic product analytics / traffic measurement
+
+### Interface
+
+- **Inputs**:
+  - Page views and events emitted via `gtag()`
+- **Outputs**:
+  - Aggregated analytics in Google Analytics
+- **Side effects**:
+  - Loads `gtag.js` from `googletagmanager.com`
+  - Sends analytics requests to Google
+
+### Consent
+
+- **Default**: `analytics_storage` is set to `denied` via Google Consent Mode.
+- **Update**: when the user accepts cookies, the app updates consent to `granted`.
+- **Storage**: the user choice is stored locally in the browser (localStorage).
+
+### Configuration
+
+- **Measurement ID**: `G-X053VNGDEP`
+- **Stream ID**: `13206297120`
+- **Stream name**: `Partnership Mapping`

@@ -51,12 +51,33 @@
   display: block;
 }
 
+.fazierLink {
+  display: inline-flex;
+  align-items: center;
+}
+
+.fazierBadge {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
 .githubLink {
   color: rgba(44, 53, 57, 0.85);
   text-decoration: underline;
   font-weight: 600;
 }
 
+.privacyLink {
+  color: rgba(44, 53, 57, 0.85);
+  text-decoration: underline;
+  font-weight: 600;
+}
+
 .githubLink:hover {
+  color: rgba(44, 53, 57, 1);
+}
+
+.privacyLink:hover {
   color: rgba(44, 53, 57, 1);
 }

@@ -9,6 +9,7 @@ import LoginPage from './pages/LoginPage/LoginPage.jsx'
 import RegisterPage from './pages/RegisterPage/RegisterPage.jsx'
 import ResetPasswordPage from './pages/ResetPasswordPage/ResetPasswordPage.jsx'
 import VerifyEmailPage from './pages/VerifyEmailPage/VerifyEmailPage.jsx'
+import PrivacyPolicyPage from './pages/PrivacyPolicyPage/PrivacyPolicyPage.jsx'
 import DashboardPage from './pages/DashboardPage/DashboardPage.jsx'
 import AssessPage from './pages/AssessPage/AssessPage.jsx'
 import ReviewPage from './pages/ReviewPage/ReviewPage.jsx'
@@ -50,6 +51,7 @@ export default function App() {
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/register/:inviteCode" element={<RegisterPage />} />
             <Route path="/reset-password" element={<ResetPasswordPage />} />
+            <Route path="/privacypolicy" element={<PrivacyPolicyPage />} />
             <Route
               path="/verify-email"
               element={

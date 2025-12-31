@@ -19,6 +19,23 @@ export default function AppFooter() {
               alt="License: BSD 3-Clause"
             />
           </a>
+          <a
+            href="https://fazier.com"
+            target="_blank"
+            rel="noopener"
+            className={styles.fazierLink}
+            aria-label="Fazier"
+          >
+            <img
+              className={styles.fazierBadge}
+              src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&theme=neutral"
+              width={120}
+              alt="Fazier badge"
+            />
+          </a>
+          <a href="/privacypolicy" className={styles.privacyLink}>
+            Privacy Policy
+          </a>
           <a href="https://github.com/jahonen/partnermap" target="_blank" rel="noopener" className={styles.githubLink}>
             GitHub
           </a>
